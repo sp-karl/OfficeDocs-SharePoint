@@ -33,6 +33,8 @@ This article describes some common issues and errors that you may encounter when
 |*The site cannot be created or updated*|Confirm that you have permissions to create the site and that the URL is valid</br></br>If the site exists, confirm you are the site collection administrator</br></br>If it still fails, create the site manually and point the migration tool to this newly created site.|
 |*Scan file failure: The folder name is invalid*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/en-us/article/Invalid-file-names-and-file-types-in-OneDrive-OneDrive-for-Business-and-SharePoint-64883a5d-228e-48f5-b3d2-eb39e07630fa)|
 |*Scan file failure: Target path is too long*|See [Invalid file names and file types in OneDrive and SharePoint](https://support.office.com/en-us/article/Invalid-file-names-and-file-types-in-OneDrive-OneDrive-for-Business-and-SharePoint-64883a5d-228e-48f5-b3d2-eb39e07630fa)   </br></br></br>The entire path, including the file name, must contain fewer than 400 characters for OneDrive, OneDrive for Business and SharePoint Online.|
+|*Task1. We are unable to connect to the source site. Please check the source*|If using CSV file to migrate, Verify the URL is correct for the TargetWeb.</br>/br>If using CSV file to migrate, verfify your CSV file is formatted correctly with all commas correctly placed in proper location.  See [How to format your JSON or CSV for data content migration]
+(https://docs.microsoft.com/en-us/sharepointmigration/how-to-format-your-csv-file-for-data-content-migration)|
 
 
 
