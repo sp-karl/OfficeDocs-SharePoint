@@ -33,7 +33,7 @@ You can prevent users from uploading specific file types when they sync their On
 This setting prevents file types from being uploaded but not downloaded. If users already have blocked file types in their OneDrive, the files sync to their computer, but any changes they make on their computer won't be uploaded.
 
 > [!NOTE]
-> The OneDrive sync app doesn't sync .tmp, .ini, and .lnk files.
+> The OneDrive sync app doesn't sync .tmp and .ini files.
 
 ## To block uploading of specific file types
   
