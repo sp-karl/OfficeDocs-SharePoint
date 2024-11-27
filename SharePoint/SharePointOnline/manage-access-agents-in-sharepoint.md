@@ -32,7 +32,7 @@ Agents in SharePoint, powered by AI, help users quickly find information and ins
 
 ## Manage who can access the agents
 
-### Leverage file permissions on the agent file
+### Use file permissions on the agent file
 
 As agents in SharePoint are represented as [.agent files](https://support.microsoft.com/office/create-and-edit-an-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42#where-agent-file), permissions on the *.agent* file govern who can access or edit the agent. Only users who are able to create or access files on a SharePoint site can create or access agents.
 
@@ -40,7 +40,7 @@ As agents in SharePoint are represented as [.agent files](https://support.micros
 
 Currently, users with a [Microsoft 365 Copilot license](/copilot/microsoft-365/microsoft-365-copilot-licensing) can use the agents. You can use the [Microsoft 365 Copilot setup guide](https://admin.microsoft.com/Adminportal/Home?Q=learndocs#/modernonboarding/microsoft365copilotsetupguide) in the Microsoft 365 admin center to assign the required licenses to users. For more information, see [Assign licenses to users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users) and [Microsoft 365 Copilot requirements](/copilot/microsoft-365/microsoft-365-copilot-requirements).
 
-Admins can choose to leverage the service plans under the Copilot license to specifically allow or block users from using Copilot experiences on SharePoint. Under the [license details page for Microsoft 365 Copilot](https://admin.microsoft.com/Adminportal/Home?#/licensedetailpage/639dec6b-bb19-468b-871c-c5c441c4b0cb) on the Microsoft 365 admin center, admins can turn *'Microsoft 365 Copilot for SharePoint'* on or off on a per-user basis. For example, a user could be allowed to use Microsoft 365 Copilot on Teams but not use any agents on SharePoint alone. Please note that this will also disable Copilots on OneDrive and the SharePoint page authoring Copilot for that user. 
+Admins can choose to edit the service plans under the Copilot license to specifically allow or block users from using Copilot experiences on SharePoint. Under the [license details page for Microsoft 365 Copilot](https://admin.microsoft.com/Adminportal/Home?#/licensedetailpage/639dec6b-bb19-468b-871c-c5c441c4b0cb) on the Microsoft 365 admin center, admins can turn *'Microsoft 365 Copilot for SharePoint'* on or off on a per-user basis. For example, a user could be allowed to use Microsoft 365 Copilot on Teams but not use any agents on SharePoint alone. Note that this will also disable Copilots on OneDrive and the SharePoint page authoring Copilot for that user. 
 
 > [!NOTE]
 > From December 1, 2024, to June 30, 2025, enterprise tenants with 50 or more Microsoft 365 Copilot licenses will receive 10,000 free Agents in SharePoint queries for unlicensed users every month as a trial. Users with a role of SharePoint administrator or higher can [check the trial promotion status](/powershell/module/sharepoint-online/get-spocopilotpromooptinstatus) and [set trial promotion](/powershell/module/sharepoint-online/set-spocopilotpromooptinstatus) using PowerShell cmdlets. Please see the terms of trial usage [here](/legal/microsoft-365/in-app-trials-terms-of-service). 
@@ -71,11 +71,11 @@ We don’t yet support adding a sensitivity label directly to the [.agent file](
 
 ### Site owner controls
 
-Agents created in SharePoint are not automatically listed or published anywhere. Users can manually navigate to *.agent* files to use them just like how they would discover or use Word or Excel files. Site owners can choose to designate specific agents from their sites as 'approved' ones. These agents would be guaranteed to show up on the picker for that particular site, and users can differentiate them from the ones that are recommended to them. Learn more [here](https://support.microsoft.com/en-us/office/manage-agents-in-sharepoint-bcab837a-835c-4a1a-8ad4-d53a353c369f).
+Agents created in SharePoint aren't automatically listed or published anywhere. Users can manually navigate to *.agent* files to use them just like how they would discover or use Word or Excel files. Site owners can choose to designate specific agents from their sites as 'approved' ones. These agents would be guaranteed to show up on the picker for that particular site, and users can differentiate them from the ones that are recommended to them. Learn more [here](https://support.microsoft.com/en-us/office/manage-agents-in-sharepoint-bcab837a-835c-4a1a-8ad4-d53a353c369f).
 
-### Turn agents off on sites with restricted content discovery
+### Turn off agents on sites with restricted content discovery
 
-You as a SharePoint Admin can turn off all agent-related features on individual sites with the [restricted content discovery](/sharepoint/restricted-content-discovery). Once a site is flagged with restricted content discovery, users can't see the Copilot icon on the upper right of the site. Therefore, they don’t have access to use the ready-made agent, create new agents, or add content from that site to any other agents. The restricted content discovery policy leaves site access unchanged but prevents the site's content from being surfaced in Microsoft 365 Copilot or organization-wide Search for all users. 
+You as a SharePoint Admin can turn off all agent-related features on individual sites with the [restricted content discovery](/sharepoint/restricted-content-discovery). Once a site is flagged with restricted content discovery, users can't see the Copilot icon on the upper right of the site. Therefore, they don’t have access to use the ready-made agent, create new agents, or add content from that site to any other agents. The restricted content discovery policy leaves site access unchanged but prevents the site's content from being surfaced in Microsoft 365 Copilot or organization-wide search for all users. 
 
 ## More resources
 
