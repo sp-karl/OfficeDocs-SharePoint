@@ -1,7 +1,7 @@
 ---
-ms.date: 09/09/2024
+ms.date: 11/01/2024
 title: "Use the sync app on virtual desktops"
-ms.reviewer: kafeaver
+ms.reviewer: gacarini
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -72,19 +72,19 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following versions 
 - VDA 2212 enables Shellbridge by default. All earlier versions require Shellbridge to be enabled manually.
 - To enable this feature, On 2203 LTSR TS VDA (2019 Server, 2022 Server, Windows 10 RDSH, or Windows 11 RDSH) add the following registry details:
 
-    `HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\Citrix Virtual Desktop Agent`<p>
-    `Name: Shellbridge`<p>
-    `Type: REG_DWORD`<p>
-    `Value: 1`
+  - `HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\Citrix Virtual Desktop Agent`
+  - `Name: Shellbridge`
+  - `Type: REG_DWORD`
+  - `Value: 1`
 
 To ensure that the feature is correctly enabled, open a command window (cmd.exe) and run `start ms-settings:printers`. If the feature is enabled, the printer setting window is displayed.
 
 **We recommend adding OneDrive.exe to `LogoffCheckSysModules`**.
 
-   `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Citrix\wfshell\TWI` <p>
-   `Value Name:LogoffCheckSysModules` <p>
-   `Type:REG_SZ` <p>
-   `String:OneDrive.exe, Microsoft.Sharepoint.exe` <p>
+- `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Citrix\wfshell\TWI`
+- `Value Name:LogoffCheckSysModules`
+- `Type:REG_SZ`
+- `String:OneDrive.exe, Microsoft.Sharepoint.exe`
 
 > [!IMPORTANT]
 > [FSLogix](/fslogix/how-to-install-fslogix) must be used in conjunction with Citrix Virtual Apps for OneDrive to be supported.
