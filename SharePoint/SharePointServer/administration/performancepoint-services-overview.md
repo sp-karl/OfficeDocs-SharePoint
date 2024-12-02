@@ -1,10 +1,10 @@
 ---
-ms.date: 03/19/2018
+ms.date: 12/02/2024
 title: "PerformancePoint Services in SharePoint Server overview"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
 audience: ITPro
 f1.keywords:
 - NOCSH

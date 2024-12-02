@@ -19,9 +19,7 @@ description: "Learn how to install and configure SharePoint Server 2013 on multi
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
-This document is the [Test Lab Guide](https://go.microsoft.com/fwlink/p/?LinkId=202817) version of the procedures that are described in [Install SharePoint Server 2016 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md).
-  
-This document contains instructions [for](https://go.microsoft.com/fwlink/p/?LinkId=202817) the following:
+This document contains instructions [for](https://go.microsoft.com/fwlink/p/?LinkId=202817):
   
 1. Configuring the Base Configuration test lab.
     
@@ -37,7 +35,7 @@ This document contains instructions [for](https://go.microsoft.com/fwlink/p/?Lin
     
 7. Demonstrating the facilities of the default Contoso team site on WFE1.
     
-**Watch the configure SharePoint Server 2013 in a three-tier farm test lab guide overview video**
+**Watch the "Configure SharePoint Server 2013 in a three-tier farm test lab guide overview" video**
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/47259e75-5973-4296-8d2a-e86c64efe5a2?autoplay=false]
 
