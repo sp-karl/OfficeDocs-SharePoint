@@ -130,7 +130,7 @@ By default, anonymous access is enabled when you share a library or list as a ca
     
 4. On the **Catalog Settings** page, in the **Catalog Sharing** section, select the **Enable this library as a catalog** check box. 
     
-5. In the **Anonymous Access** section, if you want don't want anonymous users to view and search this content, click **Disable anonymous access**.
+5. In the **Anonymous Access** section, if you don't want anonymous users to view and search this content, click **Disable anonymous access**.
     
 6. In the **Catalog Item URL Fields** section, in the **Available fields** box, select up to five fields that uniquely identify an item in the library or list, and then click **Add**. 
     
