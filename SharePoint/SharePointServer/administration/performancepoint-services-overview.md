@@ -29,8 +29,6 @@ To configure PerformancePoint Services in SharePoint Server, see [Configure Perf
 To learn about how to use PerformancePoint Services, see the following resources:
   
 - [PerformancePoint Services and Dashboard Designer compiled help file (CHM)](https://www.microsoft.com/download/details.aspx?id=55772).
-    
-- [PerformancePoint Services Dashboard Creation SuperFlow](https://go.microsoft.com/fwlink/p/?LinkId=226357)
 
 > [!NOTE]
 > PerformancePoint Services has been removed from SharePoint Server Subscription Edition. We recommend to explore Microsoft [Power BI](https://powerbi.microsoft.com/) as an alternative to PerformancePoint Services.
@@ -40,5 +38,5 @@ To learn about how to use PerformancePoint Services, see the following resources
     
 ## See also
 
-[PerformancePoint Services IT Configuration SuperFlow](https://go.microsoft.com/fwlink/p/?LinkId=226358)
+[Configure PerformancePoint Services](/SharePoint/administration/configure-performancepoint-services)
 
