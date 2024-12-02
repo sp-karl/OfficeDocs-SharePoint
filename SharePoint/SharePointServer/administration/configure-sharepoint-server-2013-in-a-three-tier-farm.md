@@ -19,7 +19,7 @@ description: "Learn how to install and configure SharePoint Server 2013 on multi
 
 [!INCLUDE[appliesto-2013-xxx-xxx-xxx-xxx-md](../includes/appliesto-2013-xxx-xxx-xxx-xxx-md.md)] 
   
-This document contains instructions [for](https://go.microsoft.com/fwlink/p/?LinkId=202817):
+This document contains instructions for:
   
 1. Configuring the Base Configuration test lab.
     
