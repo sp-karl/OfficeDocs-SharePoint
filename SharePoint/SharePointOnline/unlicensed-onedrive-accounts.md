@@ -31,7 +31,7 @@ In this article, you learn how to identify, monitor, and manage unlicensed OneDr
 >
 > Beginning January 27, 2025, any OneDrive user account that has been unlicensed for more than 93 days will undergo the following actions:
 >
-> - Unlicensed OneDrive accounts subject to a retention policy, retention period, or legal hold will be automatically archived after 93 days of license removal. While these accounts will remain visible to admins through administrative tools, neither admins nor end users will have access to their content. Access will stay restricted until administrators take specific actions. (Note: These changes do not apply to EDU, GCC, or DoD customers.)
+> - Unlicensed OneDrive accounts subject to a retention policy, retention period, or legal hold will be automatically archived after 93 days of license removal. While these accounts will remain visible to admins through administrative tools, neither admins nor end users will have access to their content. Access will stay restricted until administrators take specific actions. (Note that these changes do not apply to EDU, GCC, or DoD customers.)
 > - Unlicensed accounts not covered by any retention policy or legal hold will be moved to recycle bin after 93 days of license removal.
 
 ## Reporting
