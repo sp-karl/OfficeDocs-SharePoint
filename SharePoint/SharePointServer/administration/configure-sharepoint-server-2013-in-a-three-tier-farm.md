@@ -1,10 +1,10 @@
 ---
 title: "Test Lab Guide Configure SharePoint Server 2013 in a three-tier farm"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
-ms.date: 7/10/2017
+ms.author: ruihu
+author: maggierui
+manager: jtremper
+ms.date: 12/2/2024
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -49,10 +49,11 @@ For information about how to configure this test lab in Hyper-V, see [Hosting th
   
 ## See also
 
-#### Concepts
+### Concepts
 
 [Install SharePoint Server 2016 across multiple servers](../install/install-sharepoint-server-2016-across-multiple-servers.md)
-#### Other Resources
 
-[Test Lab Guides](https://go.microsoft.com/fwlink/p/?LinkId=202817)
+### Other Resources
+
+[Test Lab Guides](/sharepoint/administration/test-lab-guides)
 
