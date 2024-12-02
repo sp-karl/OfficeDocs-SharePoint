@@ -4,7 +4,7 @@ ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
 ms.reviewer: karlha
-ms.date: 11/19/2024
+ms.date: 12/02/2024
 audience: admin
 ms.topic: conceptual
 ms.service: one-drive
@@ -30,6 +30,7 @@ OneDrive, powered by Microsoft Syntex, allows you to manually translate document
 
 ## Key features
 
+- **Multiple points of access**: OneDrive document translation can be accessed via **My files** in OneDrive, viewer after opening the document, and **Quick access** to your SharePoint Online library. For more information about document translation for SharePoint Online, see [Overview of document translation in Microsoft Syntex](/microsoft-365/syntex/translation-overview).
 - **Request multiple languages per translation**: You can select up to 10 languages per document translation.
 - **Translation of different file types**: Translate various file types. [Supported file types](#supported-file-types), include .docx, .pdf, .pptx, and more.
 - **Video transcripts and captions**: The translation feature also supports translating video transcripts and closed caption files. For more information, see [Transcript Translations in Stream for SharePoint](https://support.microsoft.com/office/microsoft-syntex-pay-as-you-go-transcript-translations-in-stream-for-sharepoint-2e34ad1b-e213-47ed-a806-5cc0d88751de).
@@ -70,7 +71,7 @@ Sign in to [OneDrive](https://go.microsoft.com/fwlink/p/?LinkID=2119709) with yo
 
 2. Select the file you want to translate and select the **More commands (...)** button in the ribbon.
 
-    Alternatively, you can get to this feature by selecting **More Actions (...)** beside the file name.
+    Alternatively, you can get to this feature by selecting **More Actions (...)** beside the file name, opening the document in the viewer, or from the **Quick access** section of your SharePoint Online library.
 
 3. Select **Translate**.
 
@@ -119,8 +120,7 @@ Translation in Syntex is available for all [supported languages and dialects](/a
 - **Images**: Text embedded in images within documents isn't translated.
 - **Encrypted files**: Encrypted files can't be translated.
 - **Password-protected files**: Password-protected files aren't eligible for translation.
-- **SharePoint libraries**: Translation actions are also available for files stored in SharePoint libraries.
-- **On-demand translation for folders**: This feature will be available in a future release.
+- **On-demand translation for folders**: Folders in OneDrive aren't eligible for translation.
 
 ---
 
