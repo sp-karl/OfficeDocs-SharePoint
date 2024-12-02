@@ -1,10 +1,10 @@
 ---
 title: "Create an Excel Services dashboard using an OData data feed"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
-ms.date: 7/7/2017
+ms.author: ruihu    
+author: maggierui
+manager: jtremper
+ms.date: 12/2/2024
 audience: ITPro
 f1.keywords:
 - NOCSH
