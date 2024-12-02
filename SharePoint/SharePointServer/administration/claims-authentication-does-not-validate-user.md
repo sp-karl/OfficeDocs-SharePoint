@@ -1,10 +1,10 @@
 ---
 title: "Claims authentication does not validate user in SharePoint Server"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
-ms.date: 9/20/2017
+ms.author: ruihu
+author: maggierui
+manager: jtremper
+ms.date: 12/2/2024
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -158,7 +158,7 @@ To use the ULS Viewer, download it from [ULS Viewer](https://www.microsoft.com/d
     
 9. From the **ULS Viewer** window, double-click the displayed lines to view the **Message** portion. 
     
-From the claims encoding part of the Message portion for non-OAuth requests, you can determine the authentication method and encoded user identity from the claims-encoded string (example: i:0#.w|contoso\chris). For more information, see [SharePoint 2013 and SharePoint 2010 claims encoding](https://go.microsoft.com/fwlink/p/?LinkId=275449).
+From the claims encoding part of the Message portion for non-OAuth requests, you can determine the authentication method and encoded user identity from the claims-encoded string (example: i:0#.w|contoso\chris).
   
 ### Step 2: Check configuration requirements
 
