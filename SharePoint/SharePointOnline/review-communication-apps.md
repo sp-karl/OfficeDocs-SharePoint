@@ -102,8 +102,3 @@ Microsoft Viva is made up of several apps that focus on specific employee experi
 <br>
 
 **Step 4:** [Get started planning for your scenario](choose-communication-method.md)
-
-
-<br>
-<br>
-

@@ -1,10 +1,10 @@
 ---
 title: "Overview of SQL Server in a SharePoint Server 2013 environment"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
-ms.date: 3/9/2018
+ms.author: ruihu
+author: maggierui
+manager: jtremper
+ms.date: 12/2/2024
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -133,7 +133,7 @@ When you install SQL Server 2012 Analysis Services (SSAS) and SQL Server 2012 Re
 The xVelocity in-memory analytics engine in SQL Server 2012 supports both self-service BI and corporate BI. For more information, see [xVelocity in SQL Server 2012](/previous-versions/sql/sql-server-2012/hh922900(v=sql.110)).
   
 
-For more information, see [Guidance for Using SQL Server BI Features in a SharePoint Farm](https://technet.microsoft.com/library/hh231680.aspx), [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](/sharepoint/administration/overview-of-sql-server-in-a-sharepoint-server-2013-environment#sql-server-2012-and-sql-server-2014), and [Install SQL Server BI Features with SharePoint (PowerPivot and Reporting Services)](/previous-versions/sql/sql-server-2016/hh231671(v=sql.130)).
+For more information, see [Best practices for SQL Server in a SharePoint Server farm](/sharepoint/administration/best-practices-for-sql-server-in-a-sharepoint-server-farm), [Install SQL Server BI Features with SharePoint 2013 (SQL Server 2012 SP1)](/sharepoint/administration/overview-of-sql-server-in-a-sharepoint-server-2013-environment#sql-server-2012-and-sql-server-2014), and [Install SQL Server BI Features with SharePoint (PowerPivot and Reporting Services)](/previous-versions/sql/sql-server-2016/hh231671(v=sql.130)).
 
 For more information, see [Install SQL Server BI Features with SharePoint (PowerPivot and Reporting Services)](/previous-versions/sql/sql-server-2016/hh231671(v=sql.130)).
 
