@@ -1,7 +1,7 @@
 ---
-ms.date: 11/21/2023
+ms.date: 11/01/2024
 title: OneDrive webapp in offline mode
-ms.reviewer:
+ms.reviewer: cagreen
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -40,7 +40,7 @@ A secure local web server on your device handles the operations that you perform
 
 1. Open **OneDrive** for web.
 
-1. In the upper right of the page, locate the :::image type="icon" source="media/onedrive-offline/onedrive-offline1.png" border="false"::: that informs you that Offline mode is ready for you to use.
+1. In the upper right of the page, locate the icon :::image type="icon" source="media/onedrive-offline/onedrive-offline1.png" border="false"::: that informs you that Offline mode is ready for you to use.
 :::image type="content" source="media/onedrive-offline/onedrive-offline2.png" alt-text="Screenshot of OneDrive offline mode ready.":::
 
 When Offline mode is turned on, the changes you make are synced back to the cloud—either immediately (if you're online) or later when internet connection is restored (if you're offline at the time you make the changes).
@@ -51,7 +51,7 @@ When working offline, it's possible for a conflict to occur if two people change
 
 To resolve a conflict:
 
-1. If a conflict exists, you'll see a toast notification in OneDrive for web.
+1. If a conflict exists, you see a toast notification in OneDrive for web.
 
     :::image type="content" source="media/onedrive-offline/onedrive-offline3.png" alt-text="Screenshot of notification to resolve conflict.":::
 
@@ -68,12 +68,13 @@ To resolve a conflict:
 
 1. To turn off Offline mode, navigate to **My files** view.
 
-1. Expand the info pane by clicking the **Info** button.
+2. Expand the info pane by clicking the **Info** button.
     :::image type="content" source="media/onedrive-offline/onedrive-offline6.png" alt-text="Screenshot of My files view.":::
 
 3. Select **Turn off** to turn off Offline mode.
 
-1. In the confirmation dialog that appears, you can proceed with turning off Offline mode or canceling.
+4. In the confirmation dialog that appears, you can proceed with turning off Offline mode or canceling.
+   
     :::image type="content" source="media/onedrive-offline/onedrive-offline7.png" alt-text="Screenshot of confirmation dialog.":::
 
 After you turn off Offline mode, next time you open OneDrive for web, you'll no longer see the Offline mode :::image type="icon" source="media/onedrive-offline/onedrive-offline1.png" border="false"::: icon in the upper right of the page and when you're offline, you won't be able to access or edit your files from OneDrive.com or the Files app in Teams.
@@ -83,10 +84,9 @@ After you turn off Offline mode, next time you open OneDrive for web, you'll no 
 When you're working offline, you can still open and work with OneDrive for web. Features that aren't available while you're offline are grayed out to indicate that you can't use them at the moment, as illustrated below. When offline, you'll still be able to see, rename, move, copy your files, and create new folders.
 :::image type="content" source="media/onedrive-offline/onedrive-offline8.png" alt-text="Screenshot of command bar.":::
 
-
 ### Make files available offline
 
-Offline file access and sync are fundamental to OneDrive and now you can leverage the power of OneDrive files on-demand in OneDrive web app. When you want files and folders available for offline access on your device, you can select them to be always available locally directly from OneDrive web app. You can make files available offline on your device or even free up space by making offline files online-only. And you can do it directly from the OneDrive web app without having to navigate away to File Explorer or Finder to accomplish these tasks.
+Offline file access and sync are fundamental to OneDrive and now you can use the power of OneDrive files on-demand in OneDrive web app. When you want files and folders available for offline access on your device, you can select them to be always available locally directly from OneDrive web app. You can make files available offline on your device or even free up space by making offline files online-only. And you can do it directly from the OneDrive web app without having to navigate away to File Explorer or Finder to accomplish these tasks.
 
 To make file or folder available offline:
 
@@ -96,14 +96,14 @@ To make file or folder available offline:
 
     :::image type="content" source="media/onedrive-offline/onedrive-offline10.png" alt-text="Screenshot of making file available offline.":::
 
-Alternatively, you can select :::image type="icon" source="media/onedrive-offline/icon-3b.png" border="false":::  in the command bar.
+    Alternatively, you can select :::image type="icon" source="media/onedrive-offline/icon-3b.png" border="false":::  in the command bar.
 
-:::image type="content" source="media/onedrive-offline/onedrive-offline11.png" alt-text="Screenshot of command bar to make file offline." lightbox="media/onedrive-offline/onedrive-offline11.png":::
+    :::image type="content" source="media/onedrive-offline/onedrive-offline11.png" alt-text="Screenshot of command bar to make file offline." lightbox="media/onedrive-offline/onedrive-offline11.png":::
 
-
-4. The file or folder is then downloaded to your computer. Once completed, you'll be notified with a toast that the file is available to you when you're offline. 
+4. The file or folder is then downloaded to your computer. Once completed, you're notified with a toast that the file is available to you when you're offline.
 :::image type="content" source="media/onedrive-offline/onedrive-offline12.png" alt-text="Screenshot of file available when offline.":::
-1. You'll see an "available offline" icon next to the files and folder that you marked to be available offline.
+
+5. You see an "available offline" icon next to the files and folder that you marked to be available offline.
 
     :::image type="content" source="media/onedrive-offline/onedrive-offline-13b.png" alt-text="Screenshot of available offline icon.":::
 
@@ -113,21 +113,21 @@ You can also free up space on your computer by making offline files online-only.
 
 1. Select a file or folder (you can select multiple) that are marked as "available offline" that you no longer want to be available offline.
 
-1. Select "…" (select more actions for this item) and in the context menu that opens select :::image type="icon" source="media/onedrive-offline/icon-4b.png" border="false"::: option.
+2. Select "…" (select more actions for this item) and in the context menu that opens select :::image type="icon" source="media/onedrive-offline/icon-4b.png" border="false"::: option.
 
-:::image type="content" source="media/onedrive-offline/onedrive-offline-15.png" alt-text="Screenshot of making file online.":::
+    :::image type="content" source="media/onedrive-offline/onedrive-offline-15.png" alt-text="Screenshot of making file online.":::
 
- Alternatively, you can select :::image type="icon" source="media/onedrive-offline/icon5b.png" border="false"::: in the command bar.
+     Alternatively, you can select :::image type="icon" source="media/onedrive-offline/icon5b.png" border="false"::: in the command bar.
 
-:::image type="content" source="media/onedrive-offline/onedrive-offline-17.png" alt-text="Screenshot of make available online." lightbox="media/onedrive-offline/onedrive-offline-17.png":::
+    :::image type="content" source="media/onedrive-offline/onedrive-offline-17.png" alt-text="Screenshot of make available online." lightbox="media/onedrive-offline/onedrive-offline-17.png":::
 
-3. The file or folder is marked as online-only. Once completed, you'll be notified with a toast that the file is no longer available to you when you're offline. 
-:::image type="content" source="media/onedrive-offline/onedrive-offline-18.png" alt-text="Screenshot of toast that file is not available online.":::
+3. The file or folder is marked as online-only. Once completed, you're notified with a toast that the file is no longer available to you when you're offline.
+    :::image type="content" source="media/onedrive-offline/onedrive-offline-18.png" alt-text="Screenshot of toast that file isn't available online.":::
 
-1. You'll no longer see "available offline" icon next to the file or folder that you chose not to be available offline on your computer.
+4. You'll no longer see "available offline" icon next to the file or folder that you chose not to be available offline on your computer.
 
     :::image type="content" source="media/onedrive-offline/onedrive-offline-19b.png" alt-text="Screenshot of file not available offline.":::
- 
+
     > [!NOTE]
     > - "Make available offline" action works across OneDrive for Web and OneDrive sync app on Windows and macOS.
     > - You can make the file available offline in Windows File Explorer or macOS Finder and the file's offline availability state will be updated in OneDrive for Web as well.
@@ -151,4 +151,3 @@ You can also free up space on your computer by making offline files online-only.
 ### Bandwidth involved in using Offline mode
 
 When compared to OneDrive sync app, bandwidth consumed by Offline mode is minimal, and largely depends on the size of your OneDrive and how frequently your OneDrive files are modified. When setting up Offline mode for the first time, a local copy of your file metadata is downloaded and securely stored on your computer. The actual contents of your files won't be downloaded. After Offline mode is set up, only changes to your file metadata will result in upload or download activity over the network.
-
