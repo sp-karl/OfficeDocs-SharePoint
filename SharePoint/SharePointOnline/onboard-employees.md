@@ -1,5 +1,5 @@
 ---
-ms.date: 09/23/2021
+ms.date: 12/2/2024
 title: Onboard new employees into your organization
 ms.reviewer: 
 ms.author: ruihu
@@ -196,7 +196,7 @@ In Viva Learning, managers of an organization or team can assign learning and tr
 
 Give new employees the opportunity to connect with each other and build a supportive virtual community in Viva Engage. Viva Engage is a platform that connects leaders, communicators, and employees to build communities, share knowledge, and engage across the organization. Viva Engage allows you to set up a community specifically for new employees within the organizational platform.
 
-Naturally, employees come across information at different times in their onboarding process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Viva Engage](/viva/engage/get-started-with-viva-engage/new-viva-engage-faq). 
+Naturally, employees come across information at different times in their onboarding process. Creating a space where new employees can build a community for themselves gives them the opportunity to share information as they come across it. In this virtual space, new employees can share resources, share ideas, and get to know each other. It also helps them build internal bonds that can last over the course of their career. Learn more about building communities in [Viva Engage](https://support.microsoft.com/topic/get-started-with-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284). 
 
 
 ### Ask for feedback using Microsoft Forms
