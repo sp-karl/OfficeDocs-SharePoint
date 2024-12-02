@@ -1,10 +1,10 @@
 ---
 title: Hardware and software requirements for SharePoint 2013
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
-ms.date: 3/7/2018
+ms.author: ruihu
+author: maggierui
+manager: jtremper
+ms.date: 12/2/2024
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -318,8 +318,6 @@ In scenarios where installing prerequisites directly from the Internet is not po
 - [FIX: IIS 7.5 configurations are not updated when you use the ServerManager class to commit configuration changes (KB 2708075)](https://go.microsoft.com/fwlink/p/?LinkId=258851)
     
 - Hotfix: ASP.NET (SharePoint) race condition in .NET 4.5 RTM: 
-    
-  - [Windows Server 2008 R2 SP1 (KB 2759112)](https://go.microsoft.com/fwlink/p/?LinkId=267536)
     
   - [Windows Server 2012 and Windows 8 (KB 2765317)](/windows/compatibility/windows-8-introduction)
     
