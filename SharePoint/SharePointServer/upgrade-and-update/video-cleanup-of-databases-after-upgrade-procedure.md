@@ -23,7 +23,5 @@ description: "Learn how to use Windows PowerShell scripts to help cleaning up Sh
 Listen to two Microsoft Field Engineers as they talk about best practices on how to cleanup databases after an upgrade procedure. 
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/42e6f458-0d0c-4c79-a6bd-58844f06f484?autoplay=false]
-
-For a list of the sample scripts to use, see [Post-upgrade scripts.](https://gallery.technet.microsoft.com/sharepoint/Post-Upgrade-Cleanup-35099a7a)
   
 For more information on how to handle cleanup of a database, see [Post Upgrade Cleanup - Missing Server Side Dependencies.](/archive/blogs/dawiese/post-upgrade-cleanup-missing-server-side-dependencies)
