@@ -123,7 +123,7 @@ Verify that the user account that is performing this procedure is the Setup user
 
     - `/IAcceptTheLicenseTerms` (This parameter signifies that you have read, understand, and agree to the license terms of language pack for SharePoint and Project Server Subscription edition).
 
-3. Once language pack for SharePoint and Project Server Subscription Edition setup has completed, reboot your computer.
+3. Once the language pack for SharePoint and Project Server Subscription Edition setup has completed, reboot your computer.
 
 4. Run **Install-SPHelpCollection -All**.
 
