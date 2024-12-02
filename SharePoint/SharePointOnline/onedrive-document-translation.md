@@ -119,7 +119,7 @@ Translation in Syntex is available for all [supported languages and dialects](/a
 
 - **Images**: Text embedded in images within documents isn't translated.
 - **Encrypted files**: Encrypted files can't be translated.
-- **Password-protected files**: Password-protected files are not eligible for translation.
+- **Password-protected files**: Password-protected files aren't eligible for translation.
 - **On-demand translation for folders**: Folders in OneDrive aren't eligible for translation.
 
 ---
