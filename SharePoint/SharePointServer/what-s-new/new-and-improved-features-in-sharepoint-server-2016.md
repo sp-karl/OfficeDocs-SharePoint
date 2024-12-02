@@ -1,10 +1,10 @@
 ---
-ms.date: 03/13/2018
 title: "New and improved features in SharePoint Server 2016"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
+ms.author: ruihu
+author: maggierui
+manager: jtremper
+ms.date: 12/2/2024
 audience: ITPro
 f1.keywords:
 - NOCSH
