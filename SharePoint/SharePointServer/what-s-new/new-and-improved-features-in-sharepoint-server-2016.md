@@ -269,7 +269,7 @@ When you use a mobile device to access the home page for a SharePoint Server 201
 ### New controls for working with OneDrive
 <a name="newcontrols"> </a>
 
-You can select a control to create new Office documents, upload files, synchronize your files for offline use, and share your files. For more info, see "Simple controls" on [The OneDrive Blog](https://go.microsoft.com/fwlink/?LinkID=620285&amp;clcid=0x4809).
+You can select a control to create new Office documents, upload files, synchronize your files for offline use, and share your files. For more info, see [Get started creating, managing, and sharing files in OneDrive and SharePoint](https://support.microsoft.com/office/get-started-creating-managing-and-sharing-files-in-onedrive-and-sharepoint-123ff6b5-3c93-4a60-99d4-ca1bfb1734fe).
   
 ### Open Document Format (ODF) available for document libraries
 <a name="ODF"> </a>
