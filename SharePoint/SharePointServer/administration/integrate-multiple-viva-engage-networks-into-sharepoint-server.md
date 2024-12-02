@@ -38,7 +38,7 @@ For this scenario, we assume that:
 
 When you integrate an email domain that has an existing Viva Engage network into a larger parent network, it's called a network merge. A network merge is a valid option when an organization has multiple business units or subsidiaries that want to take advantage of the collaboration and administrative features of Viva Engage but that don't share a common email domain.
   
-For example, say Contoso.com is an international company with subsidiaries in locations around the world. Each subsidiary has different product lines to serve the unique needs of customers in the area. Employee email addresses reflect the name of their subsidiary, like @contoso-europe.com and @contoso-asia.com. In a network merge, all subsidiary domains merge into the parent Viva Engage network, @contoso.com, and users who have subsidiary email addresses would be routed to the parent Viva Engage network when they sign in.
+For example, say Contoso.com is an international company with subsidiaries in locations around the world. Each subsidiary has different product lines to serve the unique needs of customers in the area. User email addresses reflect the name of their subsidiary, like @contoso-europe.com and @contoso-asia.com. In a network merge, all subsidiary domains merge into the parent Viva Engage network, @contoso.com, and users who have subsidiary email addresses would be routed to the parent Viva Engage network when they sign in.
   
 > [!CAUTION]
 > When you do a network merge, the data in all subsidiary networks is permanently deleted. 
@@ -49,7 +49,7 @@ For more information about administering Viva Engage, see [Viva Engage - Admin h
 
 Merging Viva Engage networks merges the users, but not the data. Before doing the merge, tell users whose networks will be merged with the parent network the date, time, and effects of the merge. Additionally, share the reasons for the merge, highlight the benefits, and provide instructions for archiving private message data, notes, files, and so on. Let users know that all data in the child networks will be permanently deleted.
   
-When you are ready to merge networks:
+When you're ready to merge networks:
   
 - Follow the directions in [Combine multiple Viva Engage networks](/viva/engage/configure-your-viva-engage-network/consolidate-multiple-viva-engage-networks).
     
