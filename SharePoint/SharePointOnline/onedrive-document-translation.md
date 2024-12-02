@@ -32,7 +32,7 @@ OneDrive, powered by Microsoft Syntex, allows you to manually translate document
 
 - **Multiple points of access**: OneDrive document translation can be accessed via **My files** in OneDrive, viewer after opening the document, and **Quick access** to your SharePoint Online library. For more information about document translation for SharePoint Online, see [Overview of document translation in Microsoft Syntex](/microsoft-365/syntex/translation-overview).
 - **Request multiple languages per translation**: You can select up to 10 languages per document translation.
-- **Translation of different file types**: Translate various file types. [Supported file types](#supported-file-types), include .docx, .pdf, .pptx, and more.
+- **Translation of different file types**: Translate various file types. [Supported file types](#supported-file-types) include .docx, .pdf, .pptx, and more.
 - **Video transcripts and captions**: The translation feature also supports translating video transcripts and closed caption files. For more information, see [Transcript Translations in Stream for SharePoint](https://support.microsoft.com/office/microsoft-syntex-pay-as-you-go-transcript-translations-in-stream-for-sharepoint-2e34ad1b-e213-47ed-a806-5cc0d88751de).
 
 ---
@@ -55,7 +55,7 @@ Even though OneDrive document translation is enabled by default, you can also tu
 
 To disable document translation for OneDrive:
 
-1. Sign in to Microsoft 365 admin center and select **[Setup](https://go.microsoft.com/fwlink/p/?linkid=2171997)**.
+1. Sign in to the Microsoft 365 admin center and select **[Setup](https://go.microsoft.com/fwlink/p/?linkid=2171997)**.
 2. Expand **Files and content** and select **Automate content processes with Syntex**.
 3. On the **Automate content processes with Syntex** page, select **Go to Syntex settings**.
 4. On the Syntex page, in the **Document & image services** section, select **Document translation**.
@@ -119,7 +119,7 @@ Translation in Syntex is available for all [supported languages and dialects](/a
 
 - **Images**: Text embedded in images within documents isn't translated.
 - **Encrypted files**: Encrypted files can't be translated.
-- **Password-protected files**: Password-protected files aren't eligible for translation.
+- **Password-protected files**: Password-protected files are not eligible for translation.
 - **On-demand translation for folders**: Folders in OneDrive aren't eligible for translation.
 
 ---
