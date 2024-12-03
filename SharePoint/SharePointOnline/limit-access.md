@@ -31,13 +31,13 @@ description: "Learn how to allow only users in specified security groups to acce
 
 [!INCLUDE[Advanced Management](includes/advanced-management.md)]
 
-You can restrict access and sharing of OneDrive content to users in specified Microsoft Entra ID security groups. Even if other users outside of these security groups are licensed for OneDrive, they won’t have access to their own OneDrive or any shared OneDrive content when this policy is in effect.
+You can restrict access and sharing of OneDrive content to users in specified Microsoft Entra ID security groups. Even if other users outside of these security groups are licensed for OneDrive, they won’t have access to their own OneDrive or any shared OneDrive content when this policy is in effect. OneDrive access restriction at tenant level is applied when a user attempts to open a OneDrive or a file. 
 
-OneDrive access restriction is applied when a user attempts to open a OneDrive or access a file. Users not members of the specified security group can still see files in search results if they have existing direct permissions to the file. However, they won't be able to access the file if they're not part of the security specified group.
+You can use this to prevent new users from accessing any OneDrive content. For example, you can restrict OneDrive access and sharing to your new users, guest or frontline users. 
 
-You can use this to prevent oversharing of OneDrive content. For example, you can restrict OneDrive access and sharing to your users, preventing guests from accessing any OneDrive content even if the content was previously shared with them.
+Note that users who are not members of the specified security group can still see files in organization-wide search and Copilot experiences if they have existing permissions to the file prior to the policy configuration. However they will not be able to open the file or OneDrive if they are not part of the specified security group. 
 
-Note that you can also restrict access to an individual user's OneDrive to people in a security group. For more information, see [Restrict access to a user's OneDrive content to people in a security group](onedrive-site-access-restriction.md).
+Note - If you want to prevent oversharing of OneDrive content also for users with existing permissions, we recommend you to enforce OneDrive site access restriction to an individual user's OneDrive. For more information, see [Restrict access to a user's OneDrive content to people in a security group](onedrive-site-access-restriction.md).
 
 ## Requirements
 
@@ -74,6 +74,8 @@ To enable this feature:
 - Disabled Restricted OneDrive access and sharing
 
 ## Related topics
+
+[Restrict access to a user's OneDrive content to people in a security group](onedrive-site-access-restriction.md).
 
 [Restrict access control for SharePoint sites](restricted-access-control.md)
 

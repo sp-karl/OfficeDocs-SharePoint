@@ -38,7 +38,7 @@ Before you begin this operation, review the following information about prerequi
     
 - This scenario uses Adventure Works sample data and a Business Intelligence Center site in SharePoint Server 2013. 
     
-    The Adventure Works sample data that we use is available via an OData data feed.
+    The Adventure Works sample data that we'll use is available via an OData data feed. 
     
     If you don't have a Business Intelligence Center site, have an IT administrator configure it for you by using the instructions in [Configure AdventureWorks for Business Intelligence solutions](configure-adventureworks.md).
     
