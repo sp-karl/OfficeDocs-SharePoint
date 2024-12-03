@@ -92,7 +92,7 @@ The following new Access features are available when you deploy Access Services 
 ### Central Administration is no longer provisioned on all servers by default
 <a name="access"> </a>
 
-SharePoint Server 2016 Central Administration is now provisioned on the first server in a farm by default when using the SharePoint Products Configuration Wizard. Central Administration isn't provisioned on additional servers in a farm by default.
+SharePoint Server 2016 Central Administration is now provisioned on the first server in a farm by default when using the SharePoint Products Configuration Wizard. Central Administration isn't provisioned on other servers in a farm by default.
   
 You can provision or unprovision Central Administration on individual servers in a farm, no matter what the server role is by using the following methods:
   
@@ -422,7 +422,7 @@ For more info, see [Change views on the OneDrive website](https://support.micros
 
 You can now pin sites that you see on the sites page. A pinned site shows at the top of the list of sites that you're following.
   
-### Suite Navigation is themable
+### Apply themes to your Suite Navigation
 <a name="pin"> </a>
 
 You can now apply themes to your Suite Navigation.
