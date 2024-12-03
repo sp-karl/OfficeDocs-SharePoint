@@ -75,9 +75,10 @@ Perform the following steps to set up OIDC with Microsoft Entra ID:
 
    :::image type="content" source="../media/sharepoint-oidc-token-configuration.png" alt-text="Token Configuration":::
 
-8. Go to the **Manifest** tab, and manually change **replyUrlsWithType** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/*`. Then select **Save**.
+1. Go to the **Manifest** tab, and under "Microsoft Graph App Manifest" change the value for **redirectUris** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/*`. Then select **Save**.  Do the same for the "uri" value listed under **redirectUriSettings**, and select **Save** again.
 
-    :::image type="content" source="../media/sharepoint-oidc-manifest.png" alt-text="Manifest":::
+![redirectUris](media/set-up-oidc-auth-in-sharepoint-server-with-msaad/redirecturis.png)
+   
 
 ## Step 2: Change SharePoint farm properties
 
@@ -381,7 +382,7 @@ In this step, you create a team site collection with two administrators: One as 
     :::image type="content" source="../media/select-people-2.png" alt-text="Select people 2":::
 
 11. Go to the account and select **OK** to close the People Picker dialog.
-12. Select **OK** again to create the site collection.
+1. Select **OK** again to create the site collection.
 
 Once the site collection is created, you should be able to sign-in using either the Windows or the federated site collection administrator account.
 
