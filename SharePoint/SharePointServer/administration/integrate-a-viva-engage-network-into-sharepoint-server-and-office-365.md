@@ -1,10 +1,10 @@
 ---
 title: "Integrate a Viva Engage network into SharePoint Server and Microsoft 365"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
-ms.date: 9/7/2018
+ms.author: ruihu    
+author: maggierui
+manager: jtremper
+ms.date: 12/2/2024
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -56,4 +56,4 @@ For more info, see [Plan for directory synchronization for Microsoft 365](/micro
   
 [Social scenarios with Viva Engage and SharePoint Server](social-scenarios-with-viva-engage-and-sharepoint-server.md)
 
-[Viva Engage - Admin Help](/viva/engage/)
+[Viva Engage - Admin Help](/viva/engage/overview)
