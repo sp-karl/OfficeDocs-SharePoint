@@ -355,7 +355,7 @@ After the dashboard was published to SharePoint Server 2013, it's available for 
   
    **Table: Using the dashboard to obtain answers to specific questions**
 
-   **Question**|**Action**|
+   |**Question**|**Action**|
    |:-----|:-----|
    |In 2005, which product category had the most sales?  <br/> |In the **OrderYear** slicer, choose 2005. Notice that in the **ProductSalesReport** chart, the Bikes product category has the highest sales amount.  <br/> |
    |Which year had the highest amount of sales for the Bikes product category?  <br/> |To find the answer, we use the Quick Explore feature. Follow these steps:  <br/> Clear the OrderYear slicer. In the ProductSalesReport chart, select the Bikes bar. The Quick Explore button appears. Select (or tap) the Quick Explore button to open the Explore dialog. Expand CompanySales, choose OrderYear, and then choose Drill To OrderYear. The ProductSalesReport chart updates to show sales amounts for the Bikes product category. According to the **ProductSalesReport** chart, 2007 was the year in which this company had the highest sales amounts for the Bikes category.  <br/> |
