@@ -37,7 +37,7 @@ You can use this to prevent new users from accessing any OneDrive content. For e
 
 Note that users who are not members of the specified security group can still see files in organization-wide search and Copilot experiences if they have existing permissions to the file prior to the policy configuration. However they will not be able to open the file or OneDrive if they are not part of the specified security group. 
 
-Note - If you want to prevent oversharing of OneDrive content also for users with existing permissions, we recommend you to enforce OneDrive site access restriction to inidividual user's OneDrive. For more information, see [Restrict access to a user's OneDrive content to people in a security group](onedrive-site-access-restriction.md).
+Note - If you want to prevent oversharing of OneDrive content also for users with existing permissions, we recommend you to enforce OneDrive site access restriction to an individual user's OneDrive. For more information, see [Restrict access to a user's OneDrive content to people in a security group](onedrive-site-access-restriction.md).
 
 ## Requirements
 
