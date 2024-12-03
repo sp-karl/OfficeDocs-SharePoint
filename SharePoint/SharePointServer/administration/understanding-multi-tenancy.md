@@ -135,7 +135,7 @@ This example details the following ways in which customer sites can be deployed 
     
 Use a dedicated application pool per customer only if you need to satisfy requirements for isolation. Use dedicated web applications for tenants that require customizations affecting resources that are shared across a web application, such as the web.config file.
   
-When combining multiple tenants in a single web application, use a dedicated web application for all authenticated content and a separate dedicated web application for all anonymous content. This method requires two separate subscriptions IDs for tenants with both types of content. This method swill also simplify licensing.
+When combining multiple tenants in a single web application, use a dedicated web application for all authenticated content and a separate dedicated web application for all anonymous content. This method requires two separate subscriptions IDs for tenants with both types of content. This method will also simplify licensing.
   
 Don't allow full-trust code to be deployed to sites.
   
@@ -184,7 +184,7 @@ Forms-based authentication is a claims-based identity management system that is 
     
 - A Lightweight Directory Access Protocol (LDAP) data store such as Novell eDirectory, Novell Directory Services (NDS), or Sun ONE
     
-Forms-based authentication validates users based on credentials that users enter into a logon form (typically a webpage). Unauthenticated requests are redirected to a logon page, where a user must provide valid credentials and submit the form. The system issues a cookie for authenticated requests that contains a key for reestablishing the identity for later requests.
+Forms-based authentication validates users based on credentials that users enter into a sign-in form (typically a webpage). Unauthenticated requests are redirected to a sign-in page, where a user must provide valid credentials and submit the form. The system issues a cookie for authenticated requests that contains a key for reestablishing the identity for later requests.
   
 To use forms-based authentication to authenticate users against an identity management system that isn't based on Windows or one that is external, you must register the membership provider and role manager in several web.config files. SharePoint Server 2013 uses the standard ASP.NET role manager interface to collect group information about the current user. Each ASP.NET role is treated as a domain group by the authorization process in SharePoint Server 2013. You register a role manager in a web.config file exactly as you register a membership provider for authentication.
   
@@ -359,7 +359,7 @@ Write-Host "Tenant Site Collection Restore Script Completed!"
 
 #### Monitoring
 
-There are many tools that allow you to monitor SharePoint Server 2013 and troubleshoot problems. Different tools cover different aspects of the environment, although there may be overlapping areas. Consider which tools can maximize your monitoring benefits. For more guidance about how to plan monitoring for SharePoint Server 2013, see [Plan for monitoring in SharePoint Server](./monitoring-planning.md).
+There are many tools that allow you to monitor SharePoint Server 2013 and troubleshoot problems. Different tools cover different aspects of the environment, although there may be overlapping areas. Consider which tools can maximize your monitoring benefits. For more information about how to plan monitoring for SharePoint Server 2013, see [Plan for monitoring in SharePoint Server](./monitoring-planning.md).
   
 #### Feature pack management
 
@@ -501,13 +501,13 @@ Write-Host "Feature Pack Created! " + $ffp.ID
 
 In SharePoint Server 2013, a new licensing management capability was added. Farm administrators can now assign licenses to users and enable runtime license checks. By using this new functionality, you can ensure that only users who have the appropriate license can use a specific feature. The functionality also simplifies the deployment model because you no longer have to build separate farms for standard and enterprise editions of SharePoint Server.
   
-User licenses are assigned by mapping claims to a known type of license. For example, a claim can be an Active Directory Domain Services (AD DS) Security group. By mapping the **ContosoFinanceDept** security group to an Enterprise license, you effectively assign an Enterprise license to all members of that group. Users who log on to SharePoint Server are assigned claims. SharePoint Server examines the claims of users to determine their license, if a user doesn't have a license to use a particular feature, SharePoint will block access to that feature at run time. 
+User licenses are assigned by mapping claims to a known type of license. For example, a claim can be an Active Directory Domain Services (AD DS) Security group. By mapping the **ContosoFinanceDept** security group to an Enterprise license, you effectively assign an Enterprise license to all members of that group. Users who sign in SharePoint Server are assigned claims. SharePoint Server examines the claims of users to determine their license, if a user doesn't have a license to use a particular feature, SharePoint blocks access to that feature at run time. 
   
 This SharePoint Server 2013 license implementation is managed by using new Microsoft PowerShell cmdlets. By default, licensing is disabled in SharePoint Server. However administrators can opt to turn it on by using Microsoft PowerShell. For more information about how to configure licensing in SharePoint Server 2013, see [Configure licensing in SharePoint Server](./monitoring-planning.md).
   
 #### Lifecycle management
 
-Whilst this white paper outlines the key infrastructure considerations when designing a multitenant SharePoint 2013 solution and it provides baseline scripts for configuration the overall management of the lifecycle of operations is imperative. For example, custom tenant administration, deprovisioning of subscriptions, archiving, user management, self-service password reset, and quotas are all common areas that require some combination of more Windows PowerShell and customization effort in order to deliver a complete service offering. Each service provider has different requirements in this sphere and it's incredibly important to ensure that these requirements are part of the initial scoping and design work for the infrastructure platform.
+While this white paper outlines the key infrastructure considerations when designing a multitenant SharePoint 2013 solution and it provides baseline scripts for configuration the overall management of the lifecycle of operations is imperative. For example, custom tenant administration, deprovisioning of subscriptions, archiving, user management, self-service password reset, and quotas are all common areas that require some combination of more Windows PowerShell and customization effort in order to deliver a complete service offering. Each service provider has different requirements in this sphere and it's incredibly important to ensure that these requirements are part of the initial scoping and design work for the infrastructure platform.
   
 ## Setup and configuration
 <a name="begin"> </a>
