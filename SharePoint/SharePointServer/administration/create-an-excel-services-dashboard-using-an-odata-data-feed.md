@@ -142,14 +142,14 @@ Now that the Power Pivot add-in for Excel is enabled, the next step is to create
     
 3. In the **Create Relationship** dialog, specify the following settings: 
     
-  - In the **Table** list, verify that **CompanySales** is selected. 
+    - In the **Table** list, verify that **CompanySales** is selected. 
     
-  - In the **Column** list, choose **ID**.
+    - In the **Column** list, choose **ID**.
     
-  - In the **Related Lookup Table** list, choose **TerritorySalesDrilldown**.
+    - In the **Related Lookup Table** list, choose **TerritorySalesDrilldown**.
     
-  - In the **Related Column Lookup** list, verify that **ID** is selected. 
-    
+    - In the **Related Column Lookup** list, verify that **ID** is selected. 
+      
     Then choose the **Create** button. 
     
 4. Close the **PowerPivot for Excel** window, but keep Excel open. 
