@@ -1,10 +1,10 @@
 ---
 title: "Create an Excel Services dashboard using an OData data feed"
 ms.reviewer: 
-ms.author: serdars
-author: SerdarSoysal
-manager: serdars
-ms.date: 7/7/2017
+ms.author: ruihu    
+author: maggierui
+manager: jtremper
+ms.date: 12/2/2024
 audience: ITPro
 f1.keywords:
 - NOCSH
@@ -38,7 +38,7 @@ Before you begin this operation, review the following information about prerequi
     
 - This scenario uses Adventure Works sample data and a Business Intelligence Center site in SharePoint Server 2013. 
     
-    The Adventure Works sample data that we'll use is available via an OData data feed. For more information, see [AdventureWorks OData Feed (on CodePlex)](https://go.microsoft.com/fwlink/p/?LinkId=275814).
+    The Adventure Works sample data that we'll use is available via an OData data feed. 
     
     If you do not have a Business Intelligence Center site, have an IT administrator configure it for you by using the instructions in [Configure AdventureWorks for Business Intelligence solutions](configure-adventureworks.md).
     
@@ -77,7 +77,7 @@ To create the dashboard, we begin by creating a data connection. Then, we use th
 ### Part 1: Get data into Excel
 <a name="part2a"> </a>
 
-Our example dashboard uses data that is imported into Excel via an OData data feed to connect to Adventure Works sample data. For more information, see [AdventureWorks OData Feed (on CodePlex)](https://go.microsoft.com/fwlink/p/?LinkId=275814). We begin by importing data into Excel.
+Our example dashboard uses data that is imported into Excel via an OData data feed to connect to Adventure Works sample data. We begin by importing data into Excel.
   
  **To import data into Excel by using an OData data feed**
   
