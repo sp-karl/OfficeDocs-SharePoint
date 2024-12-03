@@ -213,7 +213,7 @@ We begin by creating the ProductSales report.
     
 At this point, we have created a PivotChart report showing product sales. The next step is to create a PivotChart report that shows sales amounts across different geographical locations.
   
- **To create the GeoSalesReport chart**
+**To create the GeoSalesReport chart**
   
 1. In Excel, on the same worksheet that was used to create the ProductSales report, choose cell B17.
     
@@ -280,13 +280,13 @@ Using Excel, there are several different kinds of filters we can create and add 
     
 6. Connect the slicers to the reports by following these steps:
     
-1. Select the **OrderYear** slicer. 
+  1. Select the **OrderYear** slicer. 
     
-2. On the **Options** tab, in the **Slicer** group, choose the **Report Connections** toolbar command. 
+  2. On the **Options** tab, in the **Slicer** group, choose the **Report Connections** toolbar command. 
     
-3. In the **Report Connections** dialog, choose the **ProductSalesReport** and **GeoSalesReport** check boxes, and then choose the **OK** button. 
+  3. In the **Report Connections** dialog, choose the **ProductSalesReport** and **GeoSalesReport** check boxes, and then choose the **OK** button. 
     
-4. Repeat these steps for the **EmployeeLastName** slicer. 
+  4. Repeat these steps for the **EmployeeLastName** slicer. 
     
 7. On the **File** tab, choose the **Save** button. 
     
@@ -334,7 +334,7 @@ The next step is to publish the workbook to a SharePoint library. The workbook u
     
 5. In the **Add a document** dialog, choose **OK**. The workbook is added to the library.
     
-Now that we have created and published the dashboard, we can use it to explore data.
+   Now that we have created and published the dashboard, we can use it to explore data.
   
 ## Use the dashboard
 <a name="part4"> </a>
@@ -351,15 +351,15 @@ After the dashboard was published to SharePoint Server 2013, it's available for 
     
 4. Choose the **Adventure Works Sales Reports** dashboard. The dashboard opens for viewing in a browser window. 
     
-Now that the dashboard is open for viewing, we can use it to obtain answers to specific questions, such as those that are described in the following table.
+   Now that the dashboard is open for viewing, we can use it to obtain answers to specific questions, such as those that are described in the following table.
   
-**Table: Using the dashboard to obtain answers to specific questions**
+   **Table: Using the dashboard to obtain answers to specific questions**
 
-|**Question**|**Action**|
-|:-----|:-----|
-|In 2005, which product category had the most sales?  <br/> |In the **OrderYear** slicer, choose 2005. Notice that in the **ProductSalesReport** chart, the Bikes product category has the highest sales amount.  <br/> |
-|Which year had the highest amount of sales for the Bikes product category?  <br/> |To find the answer, we use the Quick Explore feature. Follow these steps:  <br/> Clear the OrderYear slicer. In the ProductSalesReport chart, select the Bikes bar. The Quick Explore button appears. Select (or tap) the Quick Explore button to open the Explore dialog. Expand CompanySales, choose OrderYear, and then choose Drill To OrderYear. The ProductSalesReport chart updates to show sales amounts for the Bikes product category. According to the **ProductSalesReport** chart, 2007 was the year in which this company had the highest sales amounts for the Bikes category.  <br/> |
-|In France, which product subcategory has the highest amount of sales?  <br/> | To find the answer, we use the Quick Explore feature. Follow these steps:  <br/>  Refresh the browser window to restore the dashboard to its default view.  <br/>  In the **GeoSalesReport** chart, select the **France** bar to display the Quick Explore button.  <br/>  Select (or tap) the Quick Explore button.  <br/>  Expand **CompanySales**, choose **ProductSubCategory**, and then choose **Drill To ProductSubCategory**. The chart updates to display lots of products.  <br/>  Point to the tallest bar. A callout appears that indicates that bar corresponds to the Road Bikes subcategory.  <br/>  According to the GeoSalesReport chart, Road Bikes has the highest amount of sales in France for this company.  <br/> |
+   **Question**|**Action**|
+   |:-----|:-----|
+   |In 2005, which product category had the most sales?  <br/> |In the **OrderYear** slicer, choose 2005. Notice that in the **ProductSalesReport** chart, the Bikes product category has the highest sales amount.  <br/> |
+   |Which year had the highest amount of sales for the Bikes product category?  <br/> |To find the answer, we use the Quick Explore feature. Follow these steps:  <br/> Clear the OrderYear slicer. In the ProductSalesReport chart, select the Bikes bar. The Quick Explore button appears. Select (or tap) the Quick Explore button to open the Explore dialog. Expand CompanySales, choose OrderYear, and then choose Drill To OrderYear. The ProductSalesReport chart updates to show sales amounts for the Bikes product category. According to the **ProductSalesReport** chart, 2007 was the year in which this company had the highest sales amounts for the Bikes category.  <br/> |
+   |In France, which product subcategory has the highest amount of sales?  <br/> | To find the answer, we use the Quick Explore feature. Follow these steps:  <br/>  Refresh the browser window to restore the dashboard to its default view. <br/>  In the **GeoSalesReport** chart, select the **France** bar to display the Quick Explore button.  <br/>  Select (or tap) the Quick Explore button.  <br/>  Expand **CompanySales**, choose **ProductSubCategory**, and then choose **Drill To ProductSubCategory**. The chart updates to display lots of products.  <br/>  Point to the tallest bar. A callout appears that indicates that bar corresponds to the Road Bikes subcategory. <br/>  According to the GeoSalesReport chart, Road Bikes has the highest amount of sales in France for this company.  <br/> |
    
 ## See also
 <a name="part4"> </a>
