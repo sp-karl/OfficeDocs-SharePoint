@@ -98,7 +98,7 @@ Create deliverables that let you know that each employee has achieved full compe
 
 
 #### C. Collect, prioritize, and organize resources and content  
-When entering a new environment, understanding the order in which deliverables should be completed may be a uncertainty for new employees. Help them prioritize onboarding deliverables by laying them out in a way that signals priority. This could be as simple as writing them out for them or integrating [Microsoft Lists](https://support.microsoft.com/microsoft-lists). Learn how to [use Microsoft Lists to help onboard employees](#build-the-new-employee-onboarding-experience). 
+When entering a new environment, understanding the order in which deliverables should be completed may be an uncertainty for new employees. Help them prioritize onboarding deliverables by laying them out in a way that signals priority. This could be as simple as writing them out for them or integrating [Microsoft Lists](https://support.microsoft.com/microsoft-lists). Learn how to [use Microsoft Lists to help onboard employees](#build-the-new-employee-onboarding-experience). 
 
 #### D. Create a personalized training experience 
 Which learning materials are needed to help make the new employee successful? Curate learning modules for each employee that helps orient them on organizational needs, team needs, and the tools that they'll be working with daily. Learn more about [using Viva Learning.](#build-the-new-employee-onboarding-experience)
