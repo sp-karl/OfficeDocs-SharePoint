@@ -38,7 +38,7 @@ The article outlines a solution that will help you to install and synchronize ac
 ## Download the solutions files that you need
 <a name="BKMK_Download"> </a>
 
-Download the files used by this solution into a folder on SharePoint Server. Make certain you're logged in as a Farm Administrator and have a local administrator rights on this server.
+Download the files used by this solution into a folder on MIM Synchronization Server. Make certain you're logged in as a Farm Administrator and have a local administrator rights on this server.
   
 1. **SharePointSync.psm1** - Microsoft PowerShell module for deploying and starting the synchronization solution. 
     
