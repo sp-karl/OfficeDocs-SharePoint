@@ -77,7 +77,7 @@ Perform the following steps to set up OIDC with Microsoft Entra ID:
 
 1. Go to the **Manifest** tab, and under "Microsoft Graph App Manifest" change the value for **redirectUris** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/*`. Then select **Save**.  Do the same for the "uri" value listed under **redirectUriSettings**, and select **Save** again.
 
-   ![Manifest](media/set-up-oidc-auth-in-sharepoint-server-with-msaad/redirecturis.png)
+![Manifest](media/set-up-oidc-auth-in-sharepoint-server-with-msaad/redirecturis.png)
    
 
 ## Step 2: Change SharePoint farm properties
