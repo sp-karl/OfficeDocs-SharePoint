@@ -77,7 +77,7 @@ Perform the following steps to set up OIDC with Microsoft Entra ID:
 
 1. Go to the **Manifest** tab, and under "Microsoft Graph App Manifest" change the value for **redirectUris** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/*`. Then select **Save**.  Do the same for the "uri" value listed under **redirectUriSettings**, and select **Save** again.
 
-![Manifest](media/set-up-oidc-auth-in-sharepoint-server-with-msaad/redirecturis.png)
+   ![Manifest](media/set-up-oidc-auth-in-sharepoint-server-with-msaad/redirecturis.png)
    
 
 ## Step 2: Change SharePoint farm properties
@@ -387,4 +387,4 @@ In this step, you create a team site collection with two administrators: One as 
 Once the site collection is created, you should be able to sign-in using either the Windows or the federated site collection administrator account.
 
 ## Step 7: Set up People Picker
-In OIDC authentication, the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed either by using a Custom Claims Provider, or by using the new UPA-backed claim provider included in SharePoint Server Subscription Edition.  To configure a UPA-backed claim provider, see [Enhanced People Picker for modern authentication](/sharepoint/administration/enhanced-people-picker-for-trusted-authentication-method)
+In OIDC authentication, the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed either by using a Custom Claims Provider, or by using the new UPA-backed claim provider included in SharePoint Server Subscription Edition.  To configure a UPA-backed claim provider, see [Enhanced People Picker for modern authentication](/sharepoint/administration/enhanced-people-picker-for-trusted-authentication-method).
