@@ -101,7 +101,7 @@ Start-SharePointSync -WhatIf -Verbose
 
 ```
 
-![Output of the Start-SharePointSync commandlet when run with the -Verbose and -Whatif switches.](../media/fdb59e3d-950a-49a7-b5e2-574ef76d78e2.PNG)
+:::image type="content" source="../media/fdb59e3d-950a-49a7-b5e2-574ef76d78e2.PNG" alt-text="Screenshot of the output of the Start-SharePointSync cmdlet when run with the -Verbose and -WhatIf switches." lightbox="../media/fdb59e3d-950a-49a7-b5e2-574ef76d78e2.PNG":::
   
 ## The Microsoft PowerShell to start the SharePoint Synchronization Configuration
 <a name="BKMK_StartSyncConfig"> </a>
@@ -114,7 +114,7 @@ Start-SharePointSync -Verbose
 
 ```
 
-![The output of running the Start-SharePointSync commandlet with -verbose switch to run the sync service management agent.](../media/7bafbb31-696f-4724-ab98-fa1859125523.PNG)
+:::image type="content" source="../media/7bafbb31-696f-4724-ab98-fa1859125523.PNG" alt-text="The output of running the Start-SharePointSync commandlet with the -Verbose switch to run the synchronization service management agent." lightbox="../media/7bafbb31-696f-4724-ab98-fa1859125523.PNG":::
   
 ## How to add more Active Directory Domains
 <a name="BKMK_StartSyncConfig"> </a>
