@@ -568,7 +568,7 @@ The example for this setting in the .plist file is:
 
 ### MinDiskSpaceLimitInMB
 
-This setting lets you specify a minimum amount of available disk space and block the OneDrive sync app from downloading files when users have less than this amount.Users are prompted with options to help free up space.
+This setting lets you specify a minimum amount of available disk space and block the OneDrive sync app from downloading files when users have less than this amount. Users are prompted with options to help free up space.
 
 To enable this setting, set a value between 0 and 10240000.
 
