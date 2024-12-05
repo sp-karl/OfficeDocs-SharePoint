@@ -56,7 +56,7 @@ You can manage the trial access to SharePoint agents by following these steps:
 
 <div>
   <div>
-Once the trial promotion is available, your unlicensed users are able to view and interact directly with SharePoint agents. They'll receive a notification about their promotional access and be encouraged to start exploring the feature. If the user doesn't immediately see the Copilot button in the suite navigation bar, ask them to refresh the page.  
+Once the trial promotion is available, your unlicensed users are able to view and interact directly with SharePoint agents. They receive a notification about their promotional access and be encouraged to start exploring the feature. If the user doesn't immediately see the Copilot button in the suite navigation bar, ask them to refresh the page.  
     </div>
       <div>
 
@@ -65,7 +65,7 @@ Once the trial promotion is available, your unlicensed users are able to view an
     <div >
       <br>Anytime these users interact with agents, their usage counts toward your organization’s monthly trial use of 10,000 queries. Once the maximum number of queries is reached, users are notified that the service is temporarily unavailable and prompted to try again next month.</br>
         <br>
-        Unused queries won't roll over to the following month. If you need more queries, you can get them by adding more Microsoft 365 Copilot licenses. After the trial ends on June 30, 2025, users without a Microsoft 365 Copilot License will no longer be able to create or use the agents. However, agents created and used during the trial promotion remain available, and no historical data are lost.</br>
+        Unused queries don't roll over to the following month. If you need more queries, you can get them by adding more Microsoft 365 Copilot licenses. After the trial ends on June 30, 2025, users without a Microsoft 365 Copilot License will no longer be able to create or use the agents. However, agents created and used during the trial promotion remain available, and no historical data are lost.</br>
         </div>
     <div >
       ![Screenshot of reaching query limit message.](media/agents-sharepoint/reached-limit-message.png)
