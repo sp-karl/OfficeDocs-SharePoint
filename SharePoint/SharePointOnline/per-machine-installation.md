@@ -1,7 +1,7 @@
 ---
-ms.date: 03/05/2024
+ms.date: 11/05/2024
 title: Install the sync app per-machine (Windows)
-ms.reviewer: gacarini
+ms.reviewer: garezni
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -22,16 +22,16 @@ ms.collection:
 - Strat_OD_admin
 - M365-collaboration
 ms.assetid: 6891b561-a52d-4ade-9f39-b492285e2c9b
-description: In this article, you'll learn how to install the OneDrive sync app once for a Windows PC with multiple users.
+description: In this article, you learn how to install the OneDrive sync app once for a Windows PC with multiple users.
 ---
 
 # Install the sync app per-machine
 
-By default, the OneDrive sync app installs per-user, meaning that you need to install the app for each user on a machine. With the per-machine installation option, you'll only need to install the app once on a PC. This option is especially useful for computers with multiple users and for when you don't want executable files running from a user profile.
+By default, the OneDrive sync app installs per-user, meaning that you need to install the app for each user on a machine. With the per-machine installation option, you need to install the app once on a PC. This option is especially useful for computers with multiple users and for when you don't want executable files running from a user profile.
 
 Other than where the sync app is installed, the behavior is the same.
 
-**Updates**
+## Updates
 
 The OneDrive sync app with the installation option of either per-machine or per-user both use the [same release notes](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0), support the same update rings, and update in the same time-frame. [More info about the sync app update process](sync-client-update-process.md).
 
@@ -48,9 +48,10 @@ The  per-machine installation option provides automatic transitioning from the [
 ## Deployment instructions
 
 1. Download OneDriveSetup.exe.
-2. Run "OneDriveSetup.exe /allusers" from a command prompt window (this results in a User Account Control prompt) or by using Microsoft Endpoint Configuration Manager.
+2. Run "OneDriveSetup.exe /allusers" from a command prompt window (which results in a User Account Control prompt) or by using Microsoft Endpoint Configuration Manager.
 
-While the per-user option installs OneDrive for each user account on a PC under the %localappdata% folder, the per-machine option installs OneDrive under the "Program Files (x86)" or "Program Files" directory (depending on the OS architecture).
+- The per-user option installs OneDrive for each user account on a PC under the %localappdata% folder. 
+- The per-machine option installs OneDrive under the "Program Files (x86)" or "Program Files" directory (depending on the OS architecture).
 
 When setup completes, OneDrive starts. If accounts were added on the computer, they're migrated automatically.
 
