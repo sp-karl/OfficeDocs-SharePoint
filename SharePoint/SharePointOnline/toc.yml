@@ -95,11 +95,11 @@ items:
             href: restricted-sharepoint-search-allowed-list.md
           - name: Use PowerShell admin scripts
             href: restricted-sharepoint-search-admin-scripts.md
-      - name: Agents in SharePoint
+      - name: SharePoint agents
         items:
         - name: Manage Access
           href: manage-access-agents-in-sharepoint.md
-        - name: Trial access to agents in SharePoint with PowerShell
+        - name: Trial access to SharePoint agents with PowerShell
           href: manage-trial-agents-sharepoint-powershell.md
   - name: Classic to modern
     items:

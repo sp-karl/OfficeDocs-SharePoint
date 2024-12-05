@@ -1,6 +1,6 @@
 ---
 ms.date: 11/19/2024
-title: Manage access to agents in SharePoint
+title: Manage access to SharePoint agents
 ms.reviewer:
 ms.author: ruihu
 author: maggierui
@@ -20,11 +20,11 @@ ms.collection:
 ms.localizationpriority: medium
 search.appverid:
 - MET150
-description: "Learn how to manage access to agents in SharePoint with built-in SharePoint permission models, SharePoint Advanced Management features such as restricted access control, restricted content discovery, and Microsoft Purview Data Loss Prevention (DLP)."
+description: "Learn how to manage access to SharePoint agents with built-in SharePoint permission models, SharePoint Advanced Management features such as restricted access control, restricted content discovery, and Microsoft Purview Data Loss Prevention (DLP)."
 ---
-# Manage access to agents in SharePoint
+# Manage access to SharePoint agents
 
-Agents in SharePoint, powered by AI, help users quickly find information and insights on SharePoint sites, pages, and document libraries. Agents in SharePoint access your organization's data the same way [Copilot in other Microsoft 365 apps](/sharepoint/sharepoint-copilot-best-practices#copilot-and-sharepoint) does, responding to users based on their access permissions to the data. As a SharePoint admin, you can manage users' access to an agent in multiple ways by managing:
+SharePoint agents, powered by AI, help users quickly find information and insights on SharePoint sites, pages, and document libraries. SharePoint agents access your organization's data the same way [Copilot in other Microsoft 365 apps](/sharepoint/sharepoint-copilot-best-practices#copilot-and-sharepoint) does, responding to users based on their access permissions to the data. As a SharePoint admin, you can manage users' access to an agent in multiple ways by managing:
 
 - Who can access the agents
 - What information the user can access through the agent
@@ -34,7 +34,7 @@ Agents in SharePoint, powered by AI, help users quickly find information and ins
 
 ### Use file permissions on the agent file
 
-As agents in SharePoint are represented as [.agent files](https://support.microsoft.com/office/create-and-edit-an-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42#where-agent-file), permissions on the *.agent* file govern who can access or edit the agent. Only users who are able to create or access files on a SharePoint site can create or access agents.
+As SharePoint agents are represented as [.agent files](https://support.microsoft.com/office/create-and-edit-an-agent-d16c6ca1-a8e3-4096-af49-67e1cfdddd42#where-agent-file), permissions on the *.agent* file govern who can access or edit the agent. Only users who are able to create or access files on a SharePoint site can create or access agents.
 
 ### Control user access through licensing
 
@@ -43,13 +43,13 @@ Currently, users with a [Microsoft 365 Copilot license](/copilot/microsoft-365/m
 Admins can choose to edit the service plans under the Copilot license to specifically allow or block users from using Copilot experiences on SharePoint. Under the [license details page for Microsoft 365 Copilot](https://admin.microsoft.com/Adminportal/Home?#/licensedetailpage/639dec6b-bb19-468b-871c-c5c441c4b0cb) on the Microsoft 365 admin center, admins can turn *'Microsoft 365 Copilot for SharePoint'* on or off on a per-user basis. For example, a user could be allowed to use Microsoft 365 Copilot on Teams but not use any agents on SharePoint alone. Note that this will also disable Copilots on OneDrive and the SharePoint page authoring Copilot for that user. 
 
 > [!NOTE]
-> From January 6, 2025, to June 30, 2025, enterprise tenants with 50 or more Microsoft 365 Copilot licenses will receive 10,000 free Agents in SharePoint queries for unlicensed users every month as a trial. Users with a role of SharePoint administrator or higher can [check the trial promotion status](/powershell/module/sharepoint-online/get-spocopilotpromooptinstatus) and [set trial promotion](/powershell/module/sharepoint-online/set-spocopilotpromooptinstatus) using PowerShell cmdlets. Please see the terms of trial usage [here](/legal/microsoft-365/in-app-trials-terms-of-service). 
+> From January 6, 2025, to June 30, 2025, enterprise tenants with 50 or more Microsoft 365 Copilot licenses will receive 10,000 free SharePoint agents queries for unlicensed users every month as a trial. Users with a role of SharePoint administrator or higher can [check the trial promotion status](/powershell/module/sharepoint-online/get-spocopilotpromooptinstatus) and [set trial promotion](/powershell/module/sharepoint-online/set-spocopilotpromooptinstatus) using PowerShell cmdlets. Please see the terms of trial usage [here](/legal/microsoft-365/in-app-trials-terms-of-service). 
 
 ## Manage what information a user can access through the agents
 
 ### With built-in SharePoint features
 
-Agents in SharePoint use SharePoint sites, pages, and document libraries as knowledge sources to respond to the user. You can control a user’s access to the information when they use an agent by controlling their access to the site. SharePoint provides many tools to control access to a site:
+SharePoint agents use SharePoint sites, pages, and document libraries as knowledge sources to respond to the user. You can control a user’s access to the information when they use an agent by controlling their access to the site. SharePoint provides many tools to control access to a site:
 
 - Control access to a site that is associated with a [Microsoft 365 group](/microsoft-365/solutions/collaboration-governance-overview) by [setting the site as private](https://support.microsoft.com/office/change-a-site-s-title-description-logo-and-site-information-settings-8376034d-d0c7-446e-9178-6ab51c58df42) (team sites only) and controlling group membership.
 - Control access to a site that isn't associated with a group using [site permissions](/sharepoint/site-permissions).
