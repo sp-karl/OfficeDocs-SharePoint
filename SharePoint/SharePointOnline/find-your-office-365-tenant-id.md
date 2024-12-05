@@ -1,7 +1,7 @@
 ---
-ms.date: 02/25/2024
+ms.date: 11/05/2024
 title: "Find your Microsoft 365 tenant ID"
-ms.reviewer: 
+ms.reviewer: jmcdowe
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -28,7 +28,7 @@ description: "Learn how to find the Microsoft 365 tenant ID using the Microsoft 
 
 # Find your Microsoft 365 tenant ID
 
-Your Microsoft 365 tenant ID is a globally unique identifier (GUID) that is different than your organization name or domain. You can use this identifier when you configure OneDrive policies.
+Your Microsoft 365 tenant ID is a globally unique identifier (GUID) that is different than your organization name or domain. You can use this identifier when configuring OneDrive policies.
   
 ## Find your Microsoft 365 tenant ID in the Microsoft Entra admin center
 

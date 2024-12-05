@@ -180,7 +180,7 @@ The example for this setting in the .plist file is:
 
 This setting will control the contents of the folder and the folder itself when the Sync client detects that the user lost permissions to an Added Folder.
 
-Set the setting's value to **True**, to hard-delete all the contents of the folder and the folder itself when the Sync client detects that the user lost permissions to an Added Folder. Set the value to **False** or don't enable the setting to efault mark the folder in error and prompt the user to remove it. When the user confirms the removals, the contents of the folder are moved to the recycle-bin.
+Set the setting's value to **True**, to hard-delete all the contents of the folder and the folder itself when the Sync client detects that the user lost permissions to an Added Folder. Set the value to **False** or don't enable the setting to default mark the folder in error and prompt the user to remove it. When the user confirms the removals, the contents of the folder are moved to the recycle-bin.
 
 The example for this setting in the .plist file is:
 
@@ -551,7 +551,7 @@ If you don't set any of the following settings, then the default setting moves b
 
 This setting specifies the threshold for how many files a user can delete from a local OneDrive folder before the user is notified that the files will also be deleted from the cloud.
 
-> [!Note]
+> [!NOTE]
 > This policy sets the threshold for how many files a user can delete from a local OneDrive folder before the user is notified that the files will also be deleted from the cloud.
 > If you enable this policy, users see a notification if they delete more than the specified number of files from OneDrive on their local computer. The user is given the option to continue to remove the cloud files, or restore the local files.
 
@@ -684,7 +684,7 @@ The example for this setting in the .plist file is:
 <integer>(Upload Throughput Rate in KB/sec)</integer>
 ```
 
-### WarningMinDiskSpaceLimitInMB 
+### WarningMinDiskSpaceLimitInMB
 
 This setting lets you specify a minimum amount of available disk space, and warn users when the OneDrive sync app downloads a file that causes them to have less than this amount. Users are prompted with options to help free up space.
 
