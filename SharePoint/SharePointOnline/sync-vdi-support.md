@@ -1,7 +1,7 @@
 ---
-ms.date: 11/01/2024
+ms.date: 11/05/2024
 title: "Use the sync app on virtual desktops"
-ms.reviewer: gacarini
+ms.reviewer: garezni
 ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
@@ -31,11 +31,11 @@ For all [supported operating systems](https://support.office.com/article/cc0cb2b
 - Virtual desktops that persist between sessions.
 - Non-persistent virtual desktops that use [Azure Virtual Desktop](/azure/virtual-desktop).
 - Non-persistent virtual desktops that have [FSLogix Apps](/fslogix/configure-profile-container-tutorial) or [FSLogix Office Container](/fslogix/configure-office-container-tutorial), and a Microsoft 365 subscription for all of the following operating systems:
-  - Windows 10 and 11, 32-bit or 64-bit (supports VMDK files)
-  - Windows Server 2022 (supports VHDX)
-  - Windows Server 2019 (supports VHDX)
-  - Windows Server 2016 (supports VHDX)
-  - Windows Server 2012 R2 (supports VHDX)
+  - Windows 10 and 11, 32-bit or 64-bit (supports VMDK/Virtual Machine Disk files)
+  - Windows Server 2022 (supports VHDX/Virtual Hard Disk)
+  - Windows Server 2019 (supports VHDX/Virtual Hard Disk)
+  - Windows Server 2016 (supports VHDX/Virtual Hard Disk)
+  - Windows Server 2012 R2 (supports VHDX/Virtual Hard Disk)
 
 > [!NOTE]
 > It is not supported to roam the OneDrive registry hive as part of a non-persistent VDI environment. Do not roam `HKEY_CURRENT_USER\Software\Microsoft\OneDrive\` in your non-persistent VDI user profiles.
@@ -68,9 +68,9 @@ To enable OneDrive in Citrix Virtual Apps, you must have the following versions 
 
 **Citrix**:
 
-- CVAD 7 2203 LTSR CU1 or later.
-- VDA 2212 enables Shellbridge by default. All earlier versions require Shellbridge to be enabled manually.
-- To enable this feature, On 2203 LTSR TS VDA (2019 Server, 2022 Server, Windows 10 RDSH, or Windows 11 RDSH) add the following registry details:
+- CVAD 7 2203 LTSR/Long Tern Service Release CU1 or later.
+- VDA/Virtual Delivery Agent 2212 enables Shellbridge by default. All earlier versions require Shellbridge to be enabled manually.
+- To enable this feature, On 2203 LTSR TS VDA (2019 Server, 2022 Server, Windows 10 RDSH/Remote Desktop Session Host, or Windows 11 RDSH/Remote Desktop Service Host) add the following registry details:
 
   - `HKEY_LOCAL_MACHINE\SOFTWARE\Citrix\Citrix Virtual Desktop Agent`
   - `Name: Shellbridge`
@@ -108,6 +108,6 @@ To ensure that the feature is correctly enabled, open a command window (cmd.exe)
 
 ## See also
 
-Learn more about [VHDX](/openspecs/windows_protocols/ms-vhdx/83f6b700-6216-40f0-aa99-9fcb421206e2) and [VHD](/windows/desktop/vstor/about-vhd).
+Learn more about [VHDX/Virtual Hard Disk](/openspecs/windows_protocols/ms-vhdx/83f6b700-6216-40f0-aa99-9fcb421206e2) and [VHD/Virtual Hard Disk](/windows/desktop/vstor/about-vhd).
 
 For info about creating virtual hard disks, see [Manage virtual hard disks](/windows-server/storage/disk-management/manage-virtual-hard-disks).
