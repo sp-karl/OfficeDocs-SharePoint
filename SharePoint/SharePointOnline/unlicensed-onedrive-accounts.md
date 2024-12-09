@@ -107,7 +107,7 @@ After the setup is completed and reactivation is triggered, it might take up to 
 
 ## Charges from archived accounts
 
-Microsoft 365 Archive charges for both storage and account reactivation. For more information about Microsoft 365 Archive pricing, see [Pricing model for Microsoft 365 Archive (Preview)](/microsoft-365/syntex/archive/archive-pricing).
+Microsoft 365 Archive charges for both storage and account reactivation. For more information about Microsoft 365 Archive pricing, see [Pricing model for Microsoft 365 Archive](/microsoft-365/syntex/archive/archive-pricing).
 
 Once a payment method is provided, billing follows the routine cycle for archived content. If the billing is put down to reactivate one particular unlicensed account, the reactivation fee is applied for $0.60/GB for that account, and from that month onward, the storing fee of $0.05/GB/Month is applicable for all unlicensed accounts within the organization that's longer than 90 days.
 
