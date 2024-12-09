@@ -194,7 +194,7 @@ Set up cloud hybrid search in combination with hybrid federated search.
   
 ![Illustration showing a combined set-up of cloud hybrid search, hybrid federated search, and enterprise search.](../media/5f6f87b3-55ab-4f95-b453-3877c1e3915b.png)
   
-- Plan content sources for the cloud Search service application (cloud SSA) in SharePoint Server that cover all on-premises content except the sensitive content. The metadata for the crawled content is added the search index in Office 365.
+- Plan content sources for the cloud Search service application (cloud SSA) in SharePoint Server that covers all on-premises content except the sensitive content. The metadata for the crawled content is added the search index in Office 365.
     
 - Plan enterprise search in SharePoint Server to crawl the sensitive, on-premises content, see [Plan search in SharePoint Server](../search/search-planning.md). Plan content sources for the SSA that cover the sensitive content. The metadata from the crawled, sensitive content is added to the search index in SharePoint Server.
     
