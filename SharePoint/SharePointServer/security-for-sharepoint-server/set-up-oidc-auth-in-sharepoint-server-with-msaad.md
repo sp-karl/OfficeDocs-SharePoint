@@ -317,8 +317,10 @@ To **create a new web application**, do the following:
 To **extend an existing web application** and configure it to use the "contoso.local" trusted provider, do the following:
 
 1. Start the SharePoint Management Shell and run PowerShell to extend the web application.  The following example extends the web application to the Intranet zone and configures the zone to use the "Contoso.local" trusted provider for authentication.
-> [!NOTE] 
-> For this to work, you must have a valid certificate named 'SharePoint OIDC Site' imported to the farm.  See [SSL certificate management operations](../administration/ssl-certificate-management.md) for more information.
+
+   > [!NOTE] 
+   > For this to work, you must have a valid certificate named 'SharePoint OIDC Site' imported to the farm.  See [SSL certificate management operations](../administration/ssl-certificate-management.md) for more information.
+   
    ```powershell
    # Get the trusted provider
    $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
@@ -328,7 +330,8 @@ To **extend an existing web application** and configure it to use the "contoso.l
    # Extend the web app to the "Intranet" zone using trusted provider (OIDC) auth and a SharePoint managed certificate called "SharePoint OIDC Site"
    New-SPWebApplicationExtension -Identity $wa -Name "spsites" -port 443 -HostHeader 'spsites.contoso.local'-AuthenticationProvider $ap -SecureSocketsLayer -UseServerNameIndication -Certificate 'SharePoint OIDC Site' -Zone 'Intranet' -URL 'https://spsites.contoso.local' 
    ```
-2. In the SharePoint Central Administration site, navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
+
+  2. In the SharePoint Central Administration site, navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
   3. Filter the display with the web application that was extended and confirm that you see the following information:
 
       :::image type="content" source="../media/sharepoint-administration-site.png" alt-text="SharePoint Administration Site":::
