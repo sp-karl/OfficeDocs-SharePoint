@@ -44,7 +44,7 @@ Users can use agents in SharePoint after being [assigned a Copilot license](/cop
 
 ### Set up SharePoint agents as an Azure resource
 
-To use pay-as-you-go billing, you need to first set up agents in SharePoint  as a resource in Azure. That resource is used whenever a user without a Copilot license uses a SharePoint agent.
+To use pay-as-you-go billing, you need to first set up agents in SharePoint  as a resource in Azure. That resource is used whenever a user without a Microsoft 365 Copilot license uses a SharePoint agent.
 
 #### Prerequisites to set up SharePoint agents as a resource in Azure
 
