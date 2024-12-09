@@ -164,7 +164,7 @@ Set-SPOTenant -BlockAPPAccessToSitesWithAuthenticationContext $false/$true (defa
 
 ## Third party app integration
 
-Third party apps using sites with authentication context attached will need to be able to handle claims challenge. If you have third party apps then we recommend test the apps and you read guidance here:  https://learn.microsoft.com/en-us/entra/identity-platform/developer-guide-conditional-access-authentication-context.
+Third party apps using sites with authentication context attached will need to be able to handle claims challenge. If you have third party apps then we recommend test the apps and you read guidance [here](/entra/identity-platform/developer-guide-conditional-access-authentication-context).
 
 ## See also
 
