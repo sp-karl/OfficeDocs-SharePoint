@@ -68,7 +68,7 @@ Some of the search features you might be familiar with from SharePoint Server wo
   
 Some of the search features you might be familiar with from SharePoint Server aren't available with cloud hybrid search. Plan to inform your users.
   
- **Multi-tenancy on SharePoint Server 2013 or SharePoint Server 2016 farm** - A SharePoint Server 2013 orSharePoint Server 2016 farm can only attach to one tenant in SharePoint in Microsoft 365, therefore SharePoint can't preserve the tenant isolation of a multi-tenant SharePoint Server 2013 or SharePoint Server 2016 farm. 
+ **Multi-tenancy on SharePoint Server 2013 or SharePoint Server 2016 farm** - A SharePoint Server 2013 or SharePoint Server 2016 farm can only attach to one tenant in SharePoint in Microsoft 365, therefore SharePoint can't preserve the tenant isolation of a multi-tenant SharePoint Server 2013 or SharePoint Server 2016 farm. 
   
  **Custom entity extraction** - Custom entity extraction isn't available with cloud hybrid search because SharePoint in Microsoft 365 doesn't support custom entity extraction. 
   
