@@ -27,8 +27,8 @@ description: Setting up cloud hybrid search for SharePoint in Microsoft 365 requ
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
->[!IMPORTANT]
->Hybrid Federated Search in SharePoint for Microsoft 365 (Inbound), the capability to display search results from SharePoint on-premises content in SharePoint Online, has been retired as of September 2024. Hybrid Federated Search for SharePoint Server (Outbound), the ability to view SharePoint Online search results in SharePoint on-premises, and Cloud hybrid search remain operational. If you need to display search results from external content in SharePoint Online, we recommend you use Microsoft Search Graph Connectors or Cloud hybrid search.
+> [!IMPORTANT]
+> Search Content Service (SCS), an internal component of Cloud Hybrid Search in SharePoint in Microsoft 365 will be retired starting June 30, 2025. To continue using Cloud Hybrid Search by then, upgrade your SharePoint Server farm to SharePoint Server Subscription Edition (SPSE) Version 25H1 available in March 2025 or later versions. Without this upgrade, all versions of SharePoint Server 2016/2019 and previous versions of SPSE can only search for on-premises and Microsoft 365 content separately through Hybrid Federated Search after this retirement.
 
 Setting up [cloud hybrid search](learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint in Microsoft 365 requires careful planning. This article helps you design a highly reliable, secure and scalable cloud hybrid search solution. 
   
@@ -68,7 +68,7 @@ Some of the search features you might be familiar with from SharePoint Server wo
   
 Some of the search features you might be familiar with from SharePoint Server aren't available with cloud hybrid search. Plan to inform your users.
   
- **Multi-tenancy on SharePoint Server 2013 or SharePoint Server 2016 farm** - A SharePoint Server 2013 orSharePoint Server 2016 farm can only attach to one tenant in SharePoint in Microsoft 365, therefore SharePoint can't preserve the tenant isolation of a multi-tenant SharePoint Server 2013 or SharePoint Server 2016 farm. 
+ **Multi-tenancy on SharePoint Server 2013 or SharePoint Server 2016 farm** - A SharePoint Server 2013 or SharePoint Server 2016 farm can only attach to one tenant in SharePoint in Microsoft 365, therefore SharePoint can't preserve the tenant isolation of a multi-tenant SharePoint Server 2013 or SharePoint Server 2016 farm. 
   
  **Custom entity extraction** - Custom entity extraction isn't available with cloud hybrid search because SharePoint in Microsoft 365 doesn't support custom entity extraction. 
   
@@ -194,7 +194,7 @@ Set up cloud hybrid search in combination with hybrid federated search.
   
 ![Illustration showing a combined set-up of cloud hybrid search, hybrid federated search, and enterprise search.](../media/5f6f87b3-55ab-4f95-b453-3877c1e3915b.png)
   
-- Plan content sources for the cloud Search service application (cloud SSA) in SharePoint Server that cover all on-premises content except the sensitive content. The metadata for the crawled content is added the search index in Office 365.
+- Plan content sources for the cloud Search service application (cloud SSA) in SharePoint Server that covers all on-premises content except the sensitive content. The metadata for the crawled content is added the search index in Office 365.
     
 - Plan enterprise search in SharePoint Server to crawl the sensitive, on-premises content, see [Plan search in SharePoint Server](../search/search-planning.md). Plan content sources for the SSA that cover the sensitive content. The metadata from the crawled, sensitive content is added to the search index in SharePoint Server.
     
