@@ -1,5 +1,5 @@
 ---
-ms.date: 11/19/2024
+ms.date: 12/10/2024
 title: "Restrict OneDrive and SharePoint site creation"
 ms.reviewer: vgaddam
 manager: jtremper
@@ -69,7 +69,7 @@ When restricted site creation is in deny mode, a user is blocked from creating a
 The `Set-SPORestrictedSiteCreation` and `Get-SPORestrictedSiteCreation` cmdlets in the SharePoint Online Management Shell allow the admin to configure and view the restricted site creation feature and policies for the tenant.
 
 > [!IMPORTANT]
-> You must use version 16.0.25513 (published November 2024) or later of the SharePoint Online Management Shell for these commands to function properly. Earlier versions do not have the current list of site types and will not operate correctly.
+> You must use version 16.0.25513.12000 (published November 2024) or later of the SharePoint Online Management Shell for these commands to function properly. Earlier versions do not have the current list of site types and will not operate correctly.
 
 ### Enable restricted site creation for your tenant
 
@@ -141,4 +141,6 @@ When creating sites through the SharePoint Online Management Shell, the cmdlet f
 
 ## Related topics
 
-[Microsoft SharePoint Premium – SharePoint Advanced Management overview](advanced-management.md)
+- [Microsoft SharePoint Premium – SharePoint Advanced Management overview](advanced-management.md)
+- [Set-SPORestrictedSiteCreation](powershell/module/sharepoint-online/set-sporestrictedsitecreation)
+- [Get-SPORestrictedSiteCreation](/powershell/module/sharepoint-online/get-sporestrictedsitecreation)
