@@ -142,5 +142,5 @@ When creating sites through the SharePoint Online Management Shell, the cmdlet f
 ## Related topics
 
 - [Microsoft SharePoint Premium – SharePoint Advanced Management overview](advanced-management.md)
-- [Set-SPORestrictedSiteCreation](powershell/module/sharepoint-online/set-sporestrictedsitecreation)
+- [Set-SPORestrictedSiteCreation](/powershell/module/sharepoint-online/set-sporestrictedsitecreation)
 - [Get-SPORestrictedSiteCreation](/powershell/module/sharepoint-online/get-sporestrictedsitecreation)
