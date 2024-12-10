@@ -30,7 +30,7 @@ description: "Learn how admins can get started with SharePoint agents, including
 
 ## Understand who can set up and use agents
 
-**Set up an agent**: Anyone who can use SharePoint and can add new files to a site can set up agents.
+**Set up an agent**: Anyone who can use SharePoint and add new files to a site can set up agents.
 **Use an agent**: Using an agent requires either an assigned Copilot license or your organization to have pay-as-you-go billing set up for SharePoint agents.
 
 > [!IMPORTANT]
