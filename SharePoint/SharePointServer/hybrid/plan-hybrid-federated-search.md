@@ -23,7 +23,10 @@ description: "Plan to configure a SharePoint hybrid environment so that user sea
 # Plan hybrid federated search for SharePoint Server
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)] 
-  
+
+>[!IMPORTANT]
+>Hybrid Federated Search in SharePoint for Microsoft 365 (Inbound), the capability to display search results from SharePoint on-premises content in SharePoint Online, has been retired as of September 2024. Hybrid Federated Search for SharePoint Server (Outbound), the ability to view SharePoint Online search results in SharePoint on-premises, and Cloud hybrid search remain operational. If you need to display search results from external content in SharePoint Online, we recommend you use Microsoft Search Graph Connectors or Cloud hybrid search.
+
 A SharePoint hybrid environment enables you to provide hybrid solutions that integrate functionality and data access between services and features of SharePoint in Microsoft 365 and SharePoint Server. With SharePoint hybrid federated search, user searches from a Search Center display hybrid results—that is, results from both the SharePoint Server 2013 and SharePoint in Microsoft 365 search indexes.
   
     
