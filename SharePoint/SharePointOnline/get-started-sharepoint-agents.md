@@ -28,9 +28,9 @@ description: "Learn how admins can get started with SharePoint agents, including
 
 [SharePoint agents](https://support.microsoft.com/office/get-started-with-agents-in-sharepoint-69e2faf9-2c1e-4baa-8305-23e625021bcf), powered by AI, help users quickly find information and insights on SharePoint sites, pages, and document libraries. These agents access your organization's data the same way [Copilot in other Microsoft 365 apps](/sharepoint/sharepoint-copilot-best-practices#copilot-and-sharepoint) does, responding to users based on their access permissions to the data. This article discusses how admins can get started with SharePoint agents, including setting up pay-as-you-go billing and managing Azure resources for agents.
 
-## Understand who can set up and use an agent
+## Understand who can set up and use agents
 
-**Set up an agent**: Anyone who can use SharePoint and can add new files to a site can set up an agent. 
+**Set up an agent**: Anyone who can use SharePoint and can add new files to a site can set up agents.
 **Use an agent**: Using an agent requires either an assigned Copilot license or your organization to have pay-as-you-go billing set up for SharePoint agents.
 
 > [!IMPORTANT]
