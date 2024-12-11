@@ -22,9 +22,6 @@ description: "Learn how to enable Copilot to provide an on-brand asset experienc
 ---
 # Connect organizational asset libraries to Copilot for an on-brand experience
 
-> [!NOTE]
-> This feature is only currently available to preview customers, please follow [this link](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=406170) for the latest updates on general availability.
-
 Copilot can now search and retrieve enterprise assets directly from your organizational asset libraries (OALs). This new workflow helps organizations democratize access of approved brand assets and simplifies retrieval through Copilot chat. Create on-brand documents with quick access to company stock images, logos, icons and illustrations.
 
 ## How does it work?
