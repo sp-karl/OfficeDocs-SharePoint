@@ -1,5 +1,5 @@
 ---
-ms.date: 09/03/2024
+ms.date: 12/11/2024
 title: Connect organizational asset libraries to Copilot for an on-brand experience
 ms.reviewer:
 ms.author: ruihu
