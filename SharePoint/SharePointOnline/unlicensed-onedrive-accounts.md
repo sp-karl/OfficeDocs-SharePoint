@@ -107,14 +107,15 @@ After the setup is completed and reactivation is triggered, it might take up to 
 
 ## Charges from archived accounts
 
-Microsoft 365 Archive charges for both storage and account reactivation. For more information about Microsoft 365 Archive pricing, see [Pricing model for Microsoft 365 Archive](/microsoft-365/syntex/archive/archive-pricing).
-
-Once a payment method is provided, billing follows the routine cycle for archived content. If the billing is put down to reactivate one particular unlicensed account, the reactivation fee is applied for $0.60/GB for that account, and from that month onward, the storing fee of $0.05/GB/Month is applicable for all unlicensed accounts within the organization that's longer than 90 days.
+Once billing for unlicensed OneDrive accounts has been enabled, archived unlicensed OneDrive accounts which are not deleted will begin to incur charges for both monthly storage and ad-hoc account reactivation.  If the billing is put down to reactivate one particular unlicensed account, the reactivation fee is applied for $0.60/GB for that account, and from that month onward, the storage fee of $0.05/GB/Month is applicable for all unlicensed accounts within the organization for longer than 93 days.
 
 For example, if an organization has 100 unlicensed OneDrive accounts, each consuming 1 TB for a total of 100 TB, and enforcement occurs between January and March 2025, the 100 unlicensed accounts are automatically archived. If the organization needs to reactivate a specific account in October 2025 and set up billing, they incur the following costs:
 
 - A one-time reactivation fee of $0.60/GB for 1TB, totaling $614.40.
 - A monthly storage fee of $0.05/GB for 100TB, amounting to $5,120/month starting from October 2025.
+
+> [!NOTE]
+> Unlicensed OneDrive accounts cannot utilize unused SharePoint storage quota, even if Microsoft 365 Archive is configured within the tenant.  Archived unlicensed OneDrive accounts will be billed for the full amount of consumed storage.
 
 ## Use Microsoft Purview in Archived State
 
