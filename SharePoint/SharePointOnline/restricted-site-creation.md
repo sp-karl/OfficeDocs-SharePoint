@@ -76,7 +76,7 @@ The `Set-SPORestrictedSiteCreation` and `Get-SPORestrictedSiteCreation` cmdlets 
 To enable restricted site creation, run the following command in the SharePoint Online Management Shell:
 
 ```powershell
-Set-SPORestrictedSiteCreation –Enabled $true
+Set-SPORestrictedSiteCreation -Enabled $true
 ```
 
 Restricted site creation starts in deny mode without any policies, and doesn't affect any users by default.
@@ -88,7 +88,7 @@ Once you enable the restricted site creation feature, consider whether you want 
 For example, the following command sets restricted site creation to deny mode:
 
 ```powershell
-Set-SPORestrictedSiteCreation –Mode Deny
+Set-SPORestrictedSiteCreation -Mode Deny
 ```
 
 > [!IMPORTANT]
