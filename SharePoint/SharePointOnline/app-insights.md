@@ -28,6 +28,9 @@ description: "Learn how to generate App insights reports to view how non-Microso
 
 App insights is a [SharePoint Advanced Management](advanced-management.md) feature that lets [IT administrators](/microsoft-365/admin/add-users/about-admin-roles) gain insights on the various non-Microsoft applications registered to your Microsoft Entra admin center and how they access your SharePoint content. This report can help you maintain and protect the integrity of your content.
 
+> [!NOTE]
+>The App insights feature is currently in preview.
+
 The report is based on the Microsoft audit data logged when a non-Microsoft application accesses content through the following set of events:
 
 - FileAccessed
