@@ -41,7 +41,7 @@ Collaborate all in one place by migrating your Google Workspace files, metadata,
 - **Step 6:** [Migrate and Monitor](mm-google-step6-migrate-monitor.md). After reviewing your [migration setup](/sharepointmigration/mm-project-settings), migrate your Google Drives and monitor the progress.
 
 >[!Tip]
->Watch this video to help get started:  [Migrate Google files to Microsoft 365 with Migration Manager](https://youtu.be/GZ4kTX31U-A)
+>Watch this video to help get started:  [Migrate Google files to Microsoft 365 with Migration Manager](https://youtu.be/GZ4kTX31U-A).
 
 
 ## Get started
@@ -77,7 +77,7 @@ We recommend the following steps when migrating permissions in your shared drive
 
 ## What isn't migrated
 
-Google Sites and Google Maps migration are not supported, while Google Docs/Sheets/Slides/Forms are migrated as equivalent file types in Microsoft 365. [Learn more about the unsupported files](/sharepointmigration/mm-unsupported-files)
+Google Sites and Google Maps migration are not supported, while Google Docs/Sheets/Slides/Forms are migrated as equivalent file types in Microsoft 365. [Learn more about the unsupported files](/sharepointmigration/mm-unsupported-files). 
 
 ### File size of Google proprietary files
 
