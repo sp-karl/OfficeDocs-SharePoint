@@ -1,5 +1,5 @@
 ---
-ms.date: 08/11/2023
+ms.date: 08/11/2024
 title: "Overview: Migrate Google Workspace to Microsoft 365 with Migration Manager"
 ms.reviewer: 
 ms.author: heidip
