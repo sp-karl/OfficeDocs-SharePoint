@@ -43,7 +43,7 @@ You can set up either search option first, and then optionally also set up the o
   
 **Watch a video about some of the main concepts behind hybrid SharePoint Search. (Length: 9 minutes 20 seconds)**
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/fbfdea50-faac-4232-806a-390d4f4e8900?autoplay=false]
+> [!VIDEO 810bbd8b-bae4-454f-a053-98847d185120]
 
 > [!IMPORTANT]
 > The Exchange option for searching results from the exchange source shown at 6 minutes 50 seconds mark in the video is deprecated.
