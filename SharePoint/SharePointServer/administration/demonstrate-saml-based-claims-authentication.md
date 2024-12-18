@@ -33,7 +33,8 @@ This document contains instructions for:
     
 **Watch the SAML-based claims authentication with SharePoint Server 2013 test lab guide overview video**
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/a9c6633f-09da-4756-a73a-b3776160ef5a?autoplay=false]
+> [!VIDEO acebcd84-1f22-478b-a585-b19a32ae741f]
+
 ## Download the test lab guide
 
 [Test Lab Guide: Demonstrate SAML-based Claims Authentication with SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=255061)
