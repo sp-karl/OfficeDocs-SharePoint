@@ -31,7 +31,8 @@ This document contains instructions for:
     
 **Watch the demonstrate forms-based claims authentication for SharePoint Server 2013 test lab guide overview video**
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/e86a4119-b9c7-4d84-a3b3-bf9e97bdc30b?autoplay=false]
+> [!VIDEO dd1fb151-368d-4f47-b6b7-91a97241fdd9]
+
 ## Download the test lab guide
 
 [Test Lab Guide: Demonstrate Forms-based Authentication with SharePoint Server 2013](https://go.microsoft.com/fwlink/p/?LinkId=265275)
