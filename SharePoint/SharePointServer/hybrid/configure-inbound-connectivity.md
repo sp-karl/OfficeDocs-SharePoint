@@ -345,7 +345,8 @@ The following video demonstrates how a site collection strategy works with a pat
   
 **Video: Understanding URLs and host names**
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/273c8df4-baf4-4896-b142-aaab0eb4316f?autoplay=false]
+> [!VIDEO 528ab79e-2bc9-4efe-aace-fb52430154de]
+
 #### Ensure that the primary web application exists
 
 You can use an existing web application as the primary web application, or you can create one. If you haven't made this decision yet, refer to [Plan connectivity from Microsoft 365 to SharePoint Server](plan-connectivity-from-office-365-to-sharepoint-server.md) and decide before you go any further. 
