@@ -37,7 +37,7 @@ This document contains instructions for:
     
 **Watch the "Configure SharePoint Server 2013 in a three-tier farm test lab guide overview" video**
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/47259e75-5973-4296-8d2a-e86c64efe5a2?autoplay=false]
+> [!VIDEO c99c2407-6b0c-4cdb-ba54-85b302c9b23f]
 
 For information about how to configure this test lab in Hyper-V, see [Hosting the SharePoint Server 2013 Three-Tier Test Lab with Windows Server 2012 Hyper-V](https://social.technet.microsoft.com/wiki/contents/articles/16339.hosting-the-sharepoint-server-2013-three-tier-test-lab-with-windows-server-2012-hyper-v.aspx).
   
