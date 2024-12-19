@@ -36,7 +36,7 @@ During Zero downtime patching, users can add and edit files and use search as at
   
 This SharePoint tutorial explains how to patch a SharePoint Server 2016 HA farm from beginning to end, including the installation of the binary files on all servers, and the build-to-build (B2B) upgrade itself.
   
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/ec659395-d173-4c1b-bbcb-8a896498948c?autoplay=false]
+> [!VIDEO 4ee5cd7d-13a5-42ab-abaa-e98ed302d52c]
   
 > [!IMPORTANT]
 > During the demonstration, the graceful shut down of Distributed Cache Service was discussed and demonstrated. The environment depicted is a test farm and the process shown is NOT how a customer should do this in a live environment. 
