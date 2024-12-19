@@ -31,6 +31,10 @@ items:
         href: sharepoint-storage-planning.md
       - name: Business requirements
         href: business-requirements.md
+      - name: Terms of Service for Microsoft 365 pay-as-you-go
+        href: microsoft-365-pay-as-you-go-terms-of-service.md
+      - name: Microsoft 365 pay-as-you-go services pricing with Azure subscription
+        href: microsoft-365-pay-as-you-go-pricing.md
       - name: Hybrid
         href: hybrid.md
       - name: Sync
@@ -77,18 +81,26 @@ items:
         href: setup-wizard.md
   - name: Copilot
     items:
-    - name: Microsoft 365 Copilot - best practices
-      href: sharepoint-copilot-best-practices.md
-    - name: Get ready for Copilot with SharePoint Advanced Management(SAM)
-      href: get-ready-copilot-sharepoint-advanced-management.md
-    - name: Restricted SharePoint search
-      items:
-      - name: Overview
-        href: restricted-sharepoint-search.md
-      - name: Curate allowed list
-        href: restricted-sharepoint-search-allowed-list.md
-      - name: Use PowerShell admin scripts
-        href: restricted-sharepoint-search-admin-scripts.md
+      - name: SharePoint for Copilot
+        items:
+        - name: Best practices of SharePoint for Copilot
+          href: sharepoint-copilot-best-practices.md
+        - name: Get ready for Copilot with SharePoint Advanced Management
+          href: get-ready-copilot-sharepoint-advanced-management.md
+        - name: Restricted SharePoint search
+          items:
+          - name: Overview
+            href: restricted-sharepoint-search.md
+          - name: Curate allowed list
+            href: restricted-sharepoint-search-allowed-list.md
+          - name: Use PowerShell admin scripts
+            href: restricted-sharepoint-search-admin-scripts.md
+      - name: SharePoint agents
+        items:
+        - name: Manage Access
+          href: manage-access-agents-in-sharepoint.md
+        - name: Trial access to SharePoint agents with PowerShell
+          href: manage-trial-agents-sharepoint-powershell.md
   - name: Classic to modern
     items:
     - name: Publishing
