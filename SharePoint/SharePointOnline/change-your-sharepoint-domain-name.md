@@ -42,7 +42,8 @@ If your organization is going through a rebranding, merger, or acquisition and n
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOnwY]
 
 >[!IMPORTANT]
-> - The standard version of this feature is currently available to organizations that have no more than 10,000 total SharePoint sites and OneDrive accounts combined.
+> - When the rename operation begins, all sites in the tenant are queued for individual renames to the new domain. While this is happening, sites that are on the original domain would be temporarily inaccessible. Once each site is renamed to the new domain, it will become accessible again.
+> - The standard version of this feature is currently available to organizations that have no more than 10,000 total sites, which includes SharePoint sites, OneDrive accounts and SharePoint Embedded containers combined. 
 > - Advanced Tenant Rename is available to organizations that have less than 100,000 total sites, available with SharePoint Advanced Management. See [Advanced Tenant Rename](change-your-sharepoint-domain-name.md#advanced-tenant-rename).
 > - This change affects only SharePoint and OneDrive URLs. It doesn't impact email addresses.
 > - For info about changing a site address, for example, from `https://contoso.sharepoint.com/sites/sample1` to  `https://contoso.sharepoint.com/sites/sample2`, see [Change a site address](change-site-address.md). 
@@ -172,6 +173,7 @@ The PowerShell cmdlets for prioritization should be used once the tenant rename 
 ## Step 2: Use Microsoft PowerShell to rename your domain
 
 > [!WARNING]
+> - When the change of the SharePoint domain starts, sites that remain on the original domain will be temporarily inaccessible. As each site gets renamed to the new domain, it will become accessible again.
 > - Changing your SharePoint domain name might take several hours to days depending on the number of sites and OneDrive users that you have. We strongly recommend that you make this change during a period of low usage (like a weekend) and tell users to avoid accessing SharePoint and OneDrive content during the change. In addition, any actions that create new OneDrives and sites (such as creating a new team or private channel in Microsoft Teams) will be temporarily blocked during the rename.
 > - Do not plan any UPN changes or renames while the change of your SharePoint domain name is in progress. If you need to perform any, please do so after the domain name change is complete.
   

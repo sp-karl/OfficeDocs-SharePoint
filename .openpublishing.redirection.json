@@ -11,11 +11,6 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "Sharepoint/SharepointOnline/sharepoint-view-in-edge.md",
-      "redirect_url": "/SharePoint/sharepoint-sync",
-      "redirect_document_id": false
-    },
-    {
       "source_path": "Sharepoint/SharepointOnline/create-custom-ranking-model.md",
       "redirect_url": "/sharepoint/search/create-custom-ranking-model",
       "redirect_document_id": true
@@ -1243,6 +1238,11 @@
     {
       "source_path": "sharepoint/sharepointonline/onedrive-in-citrix-virtual-apps-deployment-guide.md",
       "redirect_url": "/sharepoint/sync-vdi-support",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "sharepoint/sharepointonline/advanced-management-faq.md",
+      "redirect_url": "/sharepoint/advanced-management",
       "redirect_document_id": false
     }
   ]

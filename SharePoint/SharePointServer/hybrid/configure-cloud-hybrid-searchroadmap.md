@@ -30,6 +30,9 @@ description: Learn how to configure cloud hybrid search for SharePoint Server by
 
 [!INCLUDE[appliesto-2013-2016-2019-SUB-SPO-md](../includes/appliesto-2013-2016-2019-SUB-SPO-md.md)]
 
+> [!IMPORTANT]
+> Search Content Service (SCS), an internal component of Cloud Hybrid Search in SharePoint in Microsoft 365 will be retired starting June 30, 2025. To continue using Cloud Hybrid Search by then, upgrade your SharePoint Server farm to SharePoint Server Subscription Edition (SPSE) Version 25H1 available in March 2025 or later versions. Without this upgrade, all versions of SharePoint Server 2016/2019 and previous versions of SPSE can only search for on-premises and Microsoft 365 content separately through Hybrid Federated Search after this retirement.
+
 Learn how to configure [cloud hybrid search](./learn-about-cloud-hybrid-search-for-sharepoint.md) for SharePoint Server by setting up a cloud Search service application in your SharePoint Server environment and connecting it to your search index in Office 365. 
   
 This article describes how you set up cloud hybrid search in an environment with SharePoint Server and SharePoint in Microsoft 365 for enterprises. With the cloud hybrid search solution, you add crawled metadata from all your content, including on-premises content, to your search index in Office 365. When users search in Microsoft 365, they get search results from both on-premises and from Microsoft 365 content.

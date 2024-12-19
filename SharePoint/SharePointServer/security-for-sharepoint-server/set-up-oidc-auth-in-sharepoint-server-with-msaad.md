@@ -75,9 +75,10 @@ Perform the following steps to set up OIDC with Microsoft Entra ID:
 
    :::image type="content" source="../media/sharepoint-oidc-token-configuration.png" alt-text="Token Configuration":::
 
-8. Go to the **Manifest** tab, and manually change **replyUrlsWithType** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/*`. Then select **Save**.
+1. Go to the **Manifest** tab, and under "Microsoft Graph App Manifest" change the value for **redirectUris** from `https://spsites.contoso.local/` to `https://spsites.contoso.local/*`. Then select **Save**.  Do the same for the "uri" value listed under **redirectUriSettings** and select **Save** again.
 
-    :::image type="content" source="../media/sharepoint-oidc-manifest.png" alt-text="Manifest":::
+   :::image type="content" source="media/set-up-oidc-auth-in-sharepoint-server-with-msaad/redirecturis.png" alt-text="Screenshot that shows how to Edit the Manifest":::
+   
 
 ## Step 2: Change SharePoint farm properties
 
@@ -316,8 +317,10 @@ To **create a new web application**, do the following:
 To **extend an existing web application** and configure it to use the "contoso.local" trusted provider, do the following:
 
 1. Start the SharePoint Management Shell and run PowerShell to extend the web application.  The following example extends the web application to the Intranet zone and configures the zone to use the "Contoso.local" trusted provider for authentication.
-> [!NOTE] 
-> For this to work, you must have a valid certificate named 'SharePoint OIDC Site' imported to the farm.  See [SSL certificate management operations](../administration/ssl-certificate-management.md) for more information.
+
+   > [!NOTE] 
+   > For this to work, you must have a valid certificate named 'SharePoint OIDC Site' imported to the farm.  See [SSL certificate management operations](../administration/ssl-certificate-management.md) for more information.
+   
    ```powershell
    # Get the trusted provider
    $sptrust = Get-SPTrustedIdentityTokenIssuer "Contoso.local"
@@ -327,7 +330,8 @@ To **extend an existing web application** and configure it to use the "contoso.l
    # Extend the web app to the "Intranet" zone using trusted provider (OIDC) auth and a SharePoint managed certificate called "SharePoint OIDC Site"
    New-SPWebApplicationExtension -Identity $wa -Name "spsites" -port 443 -HostHeader 'spsites.contoso.local'-AuthenticationProvider $ap -SecureSocketsLayer -UseServerNameIndication -Certificate 'SharePoint OIDC Site' -Zone 'Intranet' -URL 'https://spsites.contoso.local' 
    ```
-2. In the SharePoint Central Administration site, navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
+
+  2. In the SharePoint Central Administration site, navigate to **System Settings** > **Configure Alternate Access Mappings** > **Alternate Access Mapping Collection**.
   3. Filter the display with the web application that was extended and confirm that you see the following information:
 
       :::image type="content" source="../media/sharepoint-administration-site.png" alt-text="SharePoint Administration Site":::
@@ -381,9 +385,9 @@ In this step, you create a team site collection with two administrators: One as 
     :::image type="content" source="../media/select-people-2.png" alt-text="Select people 2":::
 
 11. Go to the account and select **OK** to close the People Picker dialog.
-12. Select **OK** again to create the site collection.
+1. Select **OK** again to create the site collection.
 
 Once the site collection is created, you should be able to sign-in using either the Windows or the federated site collection administrator account.
 
 ## Step 7: Set up People Picker
-In OIDC authentication, the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed either by using a Custom Claims Provider, or by using the new UPA-backed claim provider included in SharePoint Server Subscription Edition.  To configure a UPA-backed claim provider, see [Enhanced People Picker for modern authentication](/sharepoint/administration/enhanced-people-picker-for-trusted-authentication-method)
+In OIDC authentication, the People Picker doesn't validate the input, which can lead to misspellings or users accidentally selecting the wrong claim type. This can be addressed either by using a Custom Claims Provider, or by using the new UPA-backed claim provider included in SharePoint Server Subscription Edition.  To configure a UPA-backed claim provider, see [Enhanced People Picker for modern authentication](/sharepoint/administration/enhanced-people-picker-for-trusted-authentication-method).
