@@ -74,17 +74,6 @@ After setting up an Azure resource group for SharePoint agents, you can set up p
 1. Accept the pay-as-you-go billing terms of service.
 1. Select Save.
 
-### Let users without Copilot licenses use agents in SharePoint
-
-If you just finished setting up billing, select **Let users have access to agents in SharePoint**.
-
-![Screenshot of selecting "Let users have access to agents in SharePoint."](media/agents-sharepoint/let-users-use-agents.png)
-
-Otherwise, go to **Microsoft 365 admin center** > **Org settings** > **pay-as-you-go services** (formerly Microsoft Syntex).
-
-1.	Under Settings, select **agents in SharePoint**.
-1.	Select **Let users without Copilot licenses use agents in SharePoint**.
-1.	Select **Save**.
 
 ### Monitor consumption in Azure Cost Management
 
