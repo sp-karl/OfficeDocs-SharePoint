@@ -1,5 +1,5 @@
 ---
-ms.date: 08/07/2023
+ms.date: 01/07/2025
 title: "Step 2: Scan and assess Dropbox folders using Migration Manager"
 ms.reviewer:
 ms.author: heidip
@@ -49,7 +49,7 @@ Summary and detailed scan reports are available to assist you in troubleshooting
 
 2. To download a detailed scan report for an individual account, select a single row, then select **Download scan log**.
 
-## Managing Folders that own large amounts of data
+## Managing Folders that contain large amounts of data
 
 Upon completing your scan, download the scan reports and review/address any large source data owners.
 
