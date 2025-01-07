@@ -55,37 +55,23 @@ Summary and detailed scan reports are available to assist you in troubleshooting
 
 Upon completing your scan, download the Scan reports and review/address any large source data owners.
 
-The more users simultaneously being transferred, the higher our throughput for your migration. Users with large data sets should be broken into smaller Service Accounts to facilitate faster transfers.
+A migration task (Box user) should not exceed 100,000 items or 1 TB of data. To enable faster transfers, users with large data sets should be divided into smaller migration tasks based on their root folders.
 
-> [!IMPORTANT]
-> To maximize throughput, **users should not own greater than 100,000 items or 1 TB of data**. The more users you have, and the smaller the amounts of data they own, the faster your migration proceeds.
+To split a user into multiple migration tasks, follow these steps:
 
-**Examples**:
+1. Delete the user.
+1. Select **Add users** from the command bar.
+1. In the side panel that appears, select **Multiple specific users**.
+4. Download and edit the provided .csv template file to divide the user into multiple tasks. For example:
+    - `LargeUser@contoso.com/folder01`  
+    - `LargeUser@contoso.com/folder02`  
+    - `LargeUser@contoso.com/folder03`  
+    - `LargeUser@contoso.com/folder04` 
+5. Save the updated .csv file and upload it to create the divided migration tasks.
 
-|Size|Action|
-|---|---|
-|If a user owns more than 400,000 items|Divide the items between four users each with 100,000 items.|
-|If a user owns more than 5 TB of data|Divide between five users so that each user owns 1 TB. |
 
-To create Service Accounts, you can work with your Box Admin to carry out the following steps:
 
-1. Once you've identified a large user, determine how many Service Accounts will be required (see example above).
-2. Create the Service Accounts in Box and assign them a license.
-3. From the original large user, identify the folder(s) you would like to assign to the Service Account.
-4. Change the ownership of said folder(s) to the new Service Account. This may require that the original owner first share it with the new owner, where the new owner would have to accept, then the original owner will then have the option to select them as owner. The original owner becomes co-owner of the folder and the permissions will reflect that new status in the Source account. The folder will no longer appear in their *My Files* folder but will now appear in *Shared with me*.
-5. When it comes to migrating the Service Account, create a corresponding OneDrive user/SharePoint site to migrate the new Service Account content to.
-6. Before making any changes, you should reach out to your tenant administrator, investigate any source custom solutions or integrations that you might be using, and determine if these ownership changes will have any impact.
 
-When mapping, ensure that each Service Account has its own unique matching Destination account to optimize performance.
-
-|Source Path |Destination Path |
-|---|---|
-|originaluser@contoso.com| originaluser@contoso.com/[upload folder]\* |
-|serviceaccount1@contoso.com|serviceaccount1@contoso.com/[upload folder]\* |
-|serviceaccount2@contoso.com |serviceaccount2@contoso.com/[upload folder]\* |
-|serviceaccount3@contoso.com |serviceaccount3@contoso.com/[upload folder]\* |
-
-Asterisk (\*) = optional folder
 
 ## [**Step 3: Copy to migrations**](mm-box-step3-copy-to-migrations.md)
 
