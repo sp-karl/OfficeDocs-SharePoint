@@ -30,10 +30,10 @@ Whether you're using Migration Manager or the SharePoint Migration Tool (SPMT) f
 |Scenario|Maximum file size supported|
 |:-----|:-----|
 |File share to Microsoft 365|250 GB|
-|Google to Microsoft 365 |15 GB|
-|Dropbox to Microsoft 365 |15 GB|
-|Egnyte to Microsoft 365 |15 GB|
-|Box to Microsoft 365|15 GB|
+|Google to Microsoft 365 |250 GB|
+|Dropbox to Microsoft 365 |250 GB|
+|Egnyte to Microsoft 365 |250 GB|
+|Box to Microsoft 365|250 GB|
 
 
 ## SharePoint Migration Tool (SPMT)
