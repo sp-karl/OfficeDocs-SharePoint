@@ -72,10 +72,13 @@ Version storage under Automatic setting is determined by the following algorithm
 
 As versions are created, users have access to the following versions:
 
-- All versions created within 500 count limit in first 30 days.
-- Hourly versions (versions created at the top of the hour) between 30 to 60 day period.
-- Daily versions (versions created at the beginning of each day) between 60 to 180 day period.
-- Weekly versions (versions created at the beginning of the week) beyond 180 days or more are available indefinitely until the maximum 500 count limit has reached.
+- Any version in the first 30 days starting from when that version was created, up to 500 versions total. “Up to 500 versions” means that when you create the 501th version, the version at the beginning will be deleted, keeping the total number of versions at 500. 
+
+At least 1 version per hourly window in the first 60 days starting from when that version was created, up to 500 versions total. Hourly windows start at the beginning each hour (e.g. 10:00 am – 11:00 am). 
+
+- At least 1 version per daily window in the first 180 days starting from when that version was created, up to 500 versions total. Daily windows start at the beginning of each day’s 10:00 am, local time zone (e.g. January 1st, 2025 10:00 am – January 2nd , 2025 10:00 am). You can view the time zone that is local to your site by browsing to the site regional settings (please refer to [this article](https://support.microsoft.com/en-us/office/change-regional-settings-for-a-site-e9e189c7-16e3-45d3-a090-770be6e83c1a)). 
+
+- At least 1 version per weekly window, up to 500 versions total. Weekly windows start at the beginning of each Monday’s 10:00 am, local timezone (e.g. Monday, Januaray 6th, 2025 10:00 am – Monday Januaray 13th , 2025 10:00 am). 
 
 The service trims the intermediate versions as the above milestones are reached.
 
