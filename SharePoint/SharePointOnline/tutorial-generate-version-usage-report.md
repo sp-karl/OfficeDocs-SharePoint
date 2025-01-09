@@ -155,7 +155,7 @@ Populate the workbook by following these steps:
 
     :::image type="content" source="media/version-history/analyze-version-step3.png" lightbox="media/version-history/analyze-version-step3.png" alt-text="Screenshot of analyze version data tab.":::
 
-1. On the **File Level Analysis** worksheet, autofill the **Number of Versions** and **Number of Versions Remaining After Deletion** columns.
+4. On the **File Level Analysis** worksheet, autofill the **Number of Versions** and **Number of Versions Remaining After Deletion** columns.
 
     :::image type="content" source="media/version-history/analyze-version-step4-a.png" lightbox="media/version-history/analyze-version-step4-a.png" alt-text="Screenshot of calculations worksheet 1.":::
 
