@@ -121,7 +121,7 @@ For instructions on how to work with fonts and text, go to [Add accessible cont
 
 With the introduction of the brand center app, custom fonts become available to Site owners to use from the **Change the Look panel** to customize the look and feel of their content. Once you have created a font package for your organization the “From my organization” section of the Font packages dropdown to the **Change the Look** \> **Font** panel.
 
-:::image type="content" source="media/brand-center-change-look-org-section.png" alt-text="Screenshot of changing the font from the font panel." lightbox="media/brand-center-change-look-org-section.png":::
+![Screenshot of changing the font from the font panel.](media/brand-center-change-look-org-section.png)
 
 Learn more about [Change the Look.](https://support.microsoft.com/office/change-the-look-of-your-sharepoint-site-06bbadc3-6b04-4a60-9d14-894f6a170818)
 
