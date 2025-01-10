@@ -1,5 +1,4 @@
-
->---
+---
 ms.date: 12/19/2024
 title: Microsoft 365 pay-as-you-go pricing
 ms.reviewer:
