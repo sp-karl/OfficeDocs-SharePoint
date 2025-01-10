@@ -36,7 +36,7 @@ This article describes the OneDrive Group Policy objects (GPOs) that administrat
 > [!NOTE]
 > If you're not an IT administrator, see [Sync files with the new OneDrive sync app in Windows](https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49) for information about OneDrive sync settings.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2CnSx]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=9732f86a-fd9f-48e9-bd2d-216432a36549]
 
 ## Manage OneDrive using Group Policy
 
