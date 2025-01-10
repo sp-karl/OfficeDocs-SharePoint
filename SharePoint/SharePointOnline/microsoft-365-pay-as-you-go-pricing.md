@@ -31,4 +31,4 @@ The following table describes the service, its pricing, and how it measures usag
 
 | Service              | What’s Counted?                                                                 | What’s billed? (USD)       |
 |----------------------|---------------------------------------------------------------------------------|----------------------------|
-| Agents in SharePoint| The number of messages used. One message is a successful interaction that consists of a question and a response. | $0.01/message              |
+| Agents in SharePoint| The number of messages used. One interaction consists of a question and a response, and a successful interaction consumes 32 messages. | $0.01/message              |
