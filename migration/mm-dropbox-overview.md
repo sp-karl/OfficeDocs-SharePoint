@@ -58,9 +58,7 @@ Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](ht
 
 - **Prerequisites installed:** Make sure you have the necessary prerequisites installed.
 
-## File size migration limit
 
-We support files up to 15 GB in size for Dropbox to Microsoft 365 migrations.
 
 
 

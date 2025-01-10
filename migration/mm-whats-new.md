@@ -30,14 +30,17 @@ Help us improve Migration Manager by sending your suggestions and reporting bugs
 
 
 ## Coming soon
-- **Larger file support.** The size limit of a single file that can be migrated will be increased to improve migration fidelity.
 - **File version migration.** Support for migrating file version histories in cloud scenarios.
 
-## Sep 2024
+## December 2024
+- **Large file support for cloud migrations**. All migration scenarios now support migrating files up to 250 GB.
+- **Migration Manager Lite Private Preview**. Migration Manager Lite is a simplified version of Migration Manager designed to help SMB customers easily migrate their content from Google Drive to Microsoft 365. [Sign up for the preview](https://forms.office.com/r/rkBiy8a4Rr).
+
+## September 2024
 - **New Migration transition.** Migration Manager is undergoing a transition to provide a more scalable migration service. Tenants with ongoing migration projects will experience transition UI elements. [Learn more about the transition](new-migration-transition.md).
 - **Improved connection wizard.** Customers now have access to quick migration settings immediately upon connecting to cloud sources.
 
-## Aug 2024
+## August 2024
 - **Revamped "Copy to Migrations" panel.** The panel has been redesigned, enabling destination uploads and task-level customization while sending scanned tasks to the Migrations tab, improving migration flow efficiency.
 - **Unified Filter experience.** Filter functionality has been standardized across the Scans and Migrations tabs for a consistent user experience.
 
