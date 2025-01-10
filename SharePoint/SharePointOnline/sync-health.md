@@ -54,7 +54,7 @@ Before getting started, be sure that you're familiar with the requirements neede
 
 In this section, you'll learn how to set up sync reports on Windows and macOS devices.
 
-# Intune
+# [Intune](#tab/intune)
 This tab provides how-to steps for enabling sync reports on Intune joined devices.
 
 1. Ensure you have the required role and app versions listed in the [previous section](#requirements).
