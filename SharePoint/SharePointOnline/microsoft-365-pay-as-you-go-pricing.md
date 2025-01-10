@@ -1,4 +1,5 @@
----
+
+>---
 ms.date: 12/19/2024
 title: Microsoft 365 pay-as-you-go pricing
 ms.reviewer:
@@ -31,4 +32,6 @@ The following table describes the service, its pricing, and how it measures usag
 
 | Service              | What’s Counted?                                                                 | What’s billed? (USD)       |
 |----------------------|---------------------------------------------------------------------------------|----------------------------|
-| Agents in SharePoint| The number of messages used. One interaction consists of a question and a response, and a successful interaction consumes 32 messages. | $0.01/message              |
+| Agents in SharePoint| The number of messages used.  | $0.01/message              |
+> [!NOTE]
+> Each interaction includes a question and an answer. A successful interaction uses 32 messages.
