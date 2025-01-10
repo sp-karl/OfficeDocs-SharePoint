@@ -163,7 +163,7 @@ Populate the workbook by following these steps:
    
    > [!TIP]
    > You can select the cell with data and double click on the fill handle to complete autofill.
-   > :::image type="content" source="media/version-history/FillHandle.gif" lightbox="media/version-history/FillHandle.gif" alt-text="The icon for Excel fill handle.":::
+   > :::image type="content" source="media/version-history/fill-handle.gif" lightbox="media/version-history/FillHandle.gif" alt-text="The icon for Excel fill handle.":::
    
 5. On the **Impacted Users** worksheet, autofill the **Number of Versions Will be Deleted** column.
 
