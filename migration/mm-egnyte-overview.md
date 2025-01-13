@@ -64,8 +64,5 @@ Navigate to [Microsoft 365 Admin Center Home - Setup - Migration and imports](ht
    **Subject:**  Egnyte connection</br>
    **Text:**     I would like the user rate limits increased for my application [*enter application name*] to [*x calls*] per second and [*y calls*] per day.
 
-## File size migration limit
-
-We support files up to 15 GB in size for Egnyte to Microsoft 365 migrations.
 
 
