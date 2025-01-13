@@ -175,15 +175,15 @@ This tab provides how-to steps for enabling sync reports on macOS devices.
 |**.plist location  <br/>**|/Library/Preferences/com.microsoft.OneDrive.plist  <br/> |/Library/Containers/com.microsoft.OneDrive-mac/Data/Library/Preferences/com.microsoft.OneDrive-mac.plist  <br/> |
 |**Domain <br/>**|com.microsoft.OneDrive  <br/> |com.microsoft.OneDrive-mac  <br/> |
 
-9. Use the Terminal app to deploy the EnableSyncAdminReports setting onto your local computer.
+8. Use the Terminal app to deploy the EnableSyncAdminReports setting onto your local computer.
 
     Enter the following preference key to enable the setting:
 <br/>\<key\>EnableSyncAdminReports\</key\>
 </br>\<integer\>1\</integer\>
 
-10. Refresh the preferences cache.
+9. Refresh the preferences cache.
 
-11. On the next start of OneDrive, the new setting will be picked up.
+10. On the next start of OneDrive, the new setting will be picked up.
 
 > [!IMPORTANT]
 > After you enable the EnableSyncAdminReports setting on devices, it takes up to three days for reports to be available.
