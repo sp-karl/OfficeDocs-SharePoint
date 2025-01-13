@@ -31,7 +31,6 @@ To use pay-as-you-go billing, you need to first set up SharePoint agents as a re
 - Have Owner or Contributor Azure roles to an Azure resource group linked to the same Azure subscription
 
 > [!NOTE]
-
 > - The Owner or Contributor Azure roles are only needed in the time windows where you set up billing.
 > -	To grant an owner or Contributor Azure role, follow the instructions [here](/azure/role-based-access-control/role-assignments-portal). 
 
