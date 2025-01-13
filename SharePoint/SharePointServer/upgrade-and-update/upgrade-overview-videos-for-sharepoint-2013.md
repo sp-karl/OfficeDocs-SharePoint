@@ -59,6 +59,7 @@ This video provides a quick explanation of how to copy SharePoint 2010 databases
 **Watch the SharePoint 2013 Upgrade: Phase 2 video**
 
 > [!VIDEO 17b8663d-b68e-4589-afea-b1cc44e8935a]
+
 ### Related resources
 
 |**Resource**|**Description**|
@@ -72,6 +73,7 @@ This video provides a quick explanation of how to upgrade service applications t
 **Watch the SharePoint 2013 Upgrade: Phase 3 video**
 
 > [!VIDEO 5c7767aa-1fff-4140-b2f1-53876e847e30]
+
 ### Related resources
 
 |**Resource**|**Description**|
@@ -84,8 +86,8 @@ This video provides a quick explanation of how to upgrade content databases to S
   
 **Watch the SharePoint 2013 Upgrade: Phase 4 video**
 
-> [!VIDEO 	
-9bc77a40-3007-4928-826c-d5462f90fdbb]
+> [!VIDEO 9bc77a40-3007-4928-826c-d5462f90fdbb]
+
 ### Related resources
 
 |**Resource**|**Description**|
@@ -100,6 +102,7 @@ This video provides a quick explanation of how to upgrade site collections to Sh
 **Watch the SharePoint 2013 Upgrade: Phase 5 video**
 
 > [!VIDEO c308331a-0cee-419d-a512-ab5ab70196e2]
+
 ### Related resources
 
 |**Resource**|**Description**|
