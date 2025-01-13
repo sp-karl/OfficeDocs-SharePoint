@@ -117,6 +117,6 @@ To meet your regulatory requirements:
   
 - Audit Microsoft 365 activity in the Security &amp; Compliance Center: [Search the audit log in the Microsoft 365 Security &amp; Compliance Center](/office365/securitycompliance/search-the-audit-log-in-security-and-compliance).
     
-- Create eDiscovery cases: [Manage eDiscovery cases in the Microsoft 365 Security &amp; Compliance Center](/office365/SecurityCompliance/ediscovery-cases)
+- Create eDiscovery cases: [Manage eDiscovery cases in the Microsoft 365 Security &amp; Compliance Center](/office365/SecurityCompliance/ediscovery-cases).
     
 - Apply retention policies: [Create and apply information management policies](https://support.office.com/article/eb501fe9-2ef6-4150-945a-65a6451ee9e9).
