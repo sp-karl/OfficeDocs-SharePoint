@@ -86,7 +86,7 @@ This video provides a quick explanation of how to upgrade content databases to S
   
 **Watch the SharePoint 2013 Upgrade: Phase 4 video**
 
-> [!VIDEO 9bc77a40-3007-4928-826c-d5462f90fdbb
+> [!VIDEO 9bc77a40-3007-4928-826c-d5462f90fdbb]
 
 ### Related resources
 
