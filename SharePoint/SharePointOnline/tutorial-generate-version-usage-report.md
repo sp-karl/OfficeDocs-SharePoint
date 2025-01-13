@@ -126,7 +126,7 @@ We can also see that the `TargetExpirationDate` is set for April 19, 2023, at 18
 
 Before you start your analysis, you should update the `TargetExpirationDate` column in your report file to the dates that you want, like the versions to be expired. Again, if you choose a date that is in the past for a version, then that version will be treated as "version that had already expired" and will be deleted right away after you start the trim.  
 
-You can manually update the dates in `TargetExpirationDate` by editing the csv file. However, you may have too many rows to update by hand. To bulk update the column, you can use Excel formulas, or you can also use one of the PowerShell scripts we have provided in [Tutorial: Run 'What-If' analysis](tutorial-run-what-if-analysis.md). Specifically, you may choose a trimming mode, run the corresponding script to get a updated csv file with `TargetExpirationDate` filled out based on that trimming mode, and continue from there.
+You can manually update the dates in `TargetExpirationDate` by editing the csv file. However, you may have too many rows to update by hand. To bulk update the column, you can use Excel formulas, or you can also use one of the PowerShell scripts we have provided in [Tutorial: Run 'What-If' analysis](tutorial-run-what-if-analysis.md). Specifically, you may choose a trimming mode, run the corresponding script to get an updated csv file with `TargetExpirationDate` filled out based on that trimming mode, and continue from there.
 
 ### Option one: Analyze the report using Excel
 
