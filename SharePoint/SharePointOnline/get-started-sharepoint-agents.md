@@ -92,5 +92,3 @@ Using pay-as-you-go billing means that each user is responsible for their own co
 
 Your organization receives an invoice for all Azure services used at the end of each month. You can pay these invoices under the Invoices section in the subscription that you use for agents in SharePoint.
 
-
-
