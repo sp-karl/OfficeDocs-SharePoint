@@ -36,9 +36,9 @@ To use pay-as-you-go billing, you need to first set up SharePoint agents as a re
 > -	To grant an owner or Contributor Azure role, follow the instructions [here](/azure/role-based-access-control/role-assignments-portal). 
 
 
-To set up SharePoint agents as an Azure resource:
+To set up SharePoint agents as an Azure resource, you need to do the following if you haven't already:
 
-1. If you haven’t, [create an Azure subscription](https://azure.microsoft.com/pricing/offers/ms-azr-0003p/) with the pay-as-you-go offer. 
+1. [Create an Azure subscription](https://azure.microsoft.com/pricing/offers/ms-azr-0003p/) with the pay-as-you-go offer. 
 1. [Create an Azure resource group](/azure/azure-resource-manager/management/manage-resource-groups-portal#create-resource-groups) for SharePoint agents.
 
 ## Set up pay-as-you-go billing for SharePoint agents
@@ -48,11 +48,11 @@ After setting up an Azure resource group for SharePoint agents, you can set up p
 1. Go to the Microsoft 365 admin center, select **Settings** then **Org settings** then select **pay-as-you-go** services (formerly Microsoft Syntex).
     Alternatively, you can select Setup, and then in the **Billing and licenses** section, select **Activate pay-as-you-go services**. On the **Activate pay-as-you-go services** page, select **Get started**.
 1. On the **Pay-as-you-go services** page, under **Billing**, select **agents in SharePoint**.
-1. On the **Set up billing and turn on services** panel, in the **Set up billing** section, under **Azure subscription**, select the dropdown, and then follow the steps to select the Azure subscription, resource group, and region. (The region determines where your tenant ID and usage information such as site names will be stored.)
+1. On the **Set up billing and turn on services** panel, in the **Set up billing** section, under **Azure subscription**, select the dropdown, and then follow the steps to select the Azure subscription, resource group, and region. (The region determines where your tenant ID and usage information such as site names are stored.)
 1. Read and accept the pay-as-you-go billing terms of service.
 1. Select **Save**.
 
-### Monitor consumption in Azure Cost Management. 
+### Monitor consumption in Azure Cost Management
 
 To monitor your organization’s consumption of agents with the pay-as-you-go, you can create a budget in Azure Cost Management with [Bicep](/azure/cost-management-billing/costs/quick-create-budget-bicep) and [ARM template](/azure/cost-management-billing/costs/quick-create-budget-template). Budget helps you inform others about their spending to proactively manage costs and monitor how spending progresses over time. You can also set up various types of cost alerts to monitor the consumption. 
 Furthermore, you can view your organization’s consumption by:
