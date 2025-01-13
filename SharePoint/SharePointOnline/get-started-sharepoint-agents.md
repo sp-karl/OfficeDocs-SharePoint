@@ -74,19 +74,8 @@ After setting up an Azure resource group for SharePoint agents, you can set up p
 1. Accept the pay-as-you-go billing terms of service.
 1. Select Save.
 
-### Let users without Copilot licenses use agents in SharePoint
 
-If you just finished setting up billing, select **Let users have access to agents in SharePoint**.
-
-![Screenshot of selecting "Let users have access to agents in SharePoint."](media/agents-sharepoint/let-users-use-agents.png)
-
-Otherwise, go to **Microsoft 365 admin center** > **Org settings** > **pay-as-you-go services** (formerly Microsoft Syntex).
-
-1.	Under Settings, select **agents in SharePoint**.
-1.	Select **Let users without Copilot licenses use agents in SharePoint**.
-1.	Select **Save**.
-
-### Monitor consumption in Azure Cost Management
+### Monitor consumption in Azure Cost Management. 
 
 To monitor your organization’s consumption of agents with the pay-as-you-go, you can create a budget in Azure Cost Management with [Bicep](/azure/cost-management-billing/costs/quick-create-budget-bicep) and [ARM template](/azure/cost-management-billing/costs/quick-create-budget-template). Budget helps you inform others about their spending to proactively manage costs and monitor how spending progresses over time. You can also set up various types of cost alerts to monitor the consumption. 
 Furthermore, you can view your organization’s consumption by:
