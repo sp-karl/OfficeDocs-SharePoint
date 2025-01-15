@@ -96,7 +96,7 @@ In addition to the site activity reports, you can also run an oversharing baseli
 
 ### Step 5: Control access to content
 
-When you use Microsoft Copilot, the results come from content in Microsoft Graph, based on each individual user’s profile and permissions. In Step 3, you identify sites with potentially overshared content. Next, you want to ensure Copilot only has access to content when appropriate. To do this, , as the SharePoint admin, you can:
+When you use Microsoft Copilot, the results come from content in Microsoft Graph, based on each individual user’s profile and permissions. In Step 3, you identify sites with potentially overshared content. Next, you want to ensure Copilot only has access to content when appropriate. To do this, as the SharePoint admin, you can:
 
 - Initiate a [Site Access Review](/sharepoint/site-access-review) for site owners to confirm overshared content and take remediation steps.
 - Use the [Restricted Access Control Policy](/sharepoint/restricted-access-control) to restrict access to a site with overshared content.
