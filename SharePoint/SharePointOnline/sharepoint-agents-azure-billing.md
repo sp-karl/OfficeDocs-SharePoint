@@ -47,7 +47,7 @@ After setting up an Azure resource group for SharePoint agents, you can set up p
 1. In the Microsoft 365 admin center, select [**Setup**](https://go.microsoft.com/fwlink/p/?linkid=2171997), and then view the **Billing and licenses** section.
 1. Under **Billing and licenses**, select **Activate pay-as-you-go services**.
 1. On the **Activate pay-as-you-go services** page, select **Get started**.
-1. On the **Pay-as-you-go services** page, on the **Settings** tab, select **Agents in SharePoint**.
+1. On the **Pay-as-you-go services** page, on the **Billing** tab, select **Agents in SharePoint**.
 1. On the **Set up billing and turn on services** panel, in the **Set up billing** section, under **Azure subscription**, select the dropdown, and then follow the steps to select the Azure subscription, resource group, and region. (The region determines where your tenant ID and usage information such as site names are stored.)
 1. Read and accept the pay-as-you-go billing terms of service.
 1. Select **Save**.
@@ -75,8 +75,8 @@ To Disconnect Agents from pay-as-you-go billing, follow these steps:
 1. In the Microsoft 365 admin center, select [**Setup**](https://go.microsoft.com/fwlink/p/?linkid=2171997), and then view the **Billing and licenses** section.
 1. Under **Billing and licenses**, select **Activate pay-as-you-go services**.
 1. On the **Activate pay-as-you-go services** page, select **Get started**.
-1. On the **Pay-as-you-go services** page, on the **Settings** tab, select **Agents in SharePoint**.
-1. On the **Manage billing** panel, under the Azure Subscription, select **Edit billing information**.
-1. Select **Disconnect Azure subscription** under **Mange Billing**.
+1. On the **Pay-as-you-go services** page, on the **Billing** tab, select **Agents in SharePoint**.
+1. On the **Manage billing for agents in SharePoint** panel, under the Azure Subscription, select **Edit billing information**.
+1. Select **Disconnect Azure subscription**.
 1. Select **Disconnect** within the **Disconnect Subscription** pop-up window.
 1. View confirmation that your Azure Subscription has been disconnected Under **set up billing and turn on services**.
