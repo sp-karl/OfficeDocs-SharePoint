@@ -1,5 +1,5 @@
 ---
-ms.date: 09/11/2021
+ms.date: 01/15/2025
 title: "Associate a hub site to another hub site in the SharePoint admin center"
 ms.reviewer:
 ms.author: ruihu
