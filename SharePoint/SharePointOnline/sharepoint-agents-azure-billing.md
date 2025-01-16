@@ -74,6 +74,6 @@ To Disconnect Agents from pay-as-you-go billing, follow these steps:
 1. In the Microsoft 365 admin center, select **Settings** > **Org Settings**.
 1. On the **Pay-as-you-go services** page, on the **Billing** tab, select **Agents in SharePoint**.
 1. On the **Manage billing** panel, under the Azure Subscription, select **Edit billing information**.
-1. Select **Disconnect Azure subscription** under **Mange Billing**.
+1. Select **Disconnect Azure subscription** under **Manage Billing**.
 1. Select **Disconnect** within the **Disconnect Subscription** pop-up window.
 1. View confirmation that your Azure Subscription has been disconnected Under **set up billing and turn on services**. 
