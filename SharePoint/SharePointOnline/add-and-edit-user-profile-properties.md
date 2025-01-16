@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 01/16/2025
 title: "Add and edit user profile properties in SharePoint"
 ms.reviewer: waynewin
 ms.author: ruihu
