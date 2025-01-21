@@ -101,10 +101,14 @@ items:
             href: restricted-sharepoint-search-admin-scripts.md
       - name: SharePoint agents
         items:
+        - name: Get started with SharePoint agents
+          href: get-started-sharepoint-agents.md
         - name: Manage Access
           href: manage-access-agents-in-sharepoint.md
         - name: Trial access to SharePoint agents with PowerShell
           href: manage-trial-agents-sharepoint-powershell.md
+        - name: Use agents with pay-as-you-go billing
+          href: sharepoint-agents-azure-billing.md
   - name: Classic to modern
     items:
     - name: Publishing
