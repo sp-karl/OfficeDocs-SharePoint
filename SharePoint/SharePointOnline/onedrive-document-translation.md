@@ -4,7 +4,7 @@ ms.author: mactra
 author: MachelleTranMSFT
 manager: jtremper
 ms.reviewer: karlha
-ms.date: 12/18/2024
+ms.date: 01/21/2025
 audience: admin
 ms.topic: conceptual
 ms.service: one-drive
@@ -120,7 +120,6 @@ Translation in Syntex is available for all [supported languages and dialects](/a
 - **Images**: Text embedded in images within documents isn't translated.
 - **Encrypted files**: Encrypted files can't be translated.
 - **Password-protected files**: Password-protected files aren't eligible for translation.
-- **On-demand translation for folders**: Folders in OneDrive aren't eligible for translation.
 
 ---
 
