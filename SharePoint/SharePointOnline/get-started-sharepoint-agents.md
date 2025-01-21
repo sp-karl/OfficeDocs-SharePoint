@@ -1,5 +1,5 @@
 ---
-ms.date: 12/06/2024
+ms.date: 01/20/2025
 title: Get started with SharePoint agents
 ms.reviewer:
 ms.author: ruihu
@@ -32,8 +32,8 @@ description: "Learn how admins can get started with SharePoint agents, including
 
 | **Action**          | **Requirements for the user**                                                                                       |
 |---------------------|--------------------------------------------------------------------------------------------------------|
-| **Set up an agent** | - Assigned with a Copilot license or your organization has the pay-as-you-go billing set up<br>- Ability to add new files to a SharePoint site    |
-| **Use an agent**    | - Assigned with a Copilot license or your organization has the pay-as-you-go billing set up                                                       |
+| **Create and configure an agent** | - Assigned with a Copilot license or your organization has the pay-as-you-go billing set up<br>- Ability to add new files to a SharePoint site    |
+| **Interact with an agent**    | - Assigned with a Copilot license or your organization has the pay-as-you-go billing set up                                                       |
 
 > [!IMPORTANT]
 > If your organization hasn’t adopted Microsoft 365 Copilot, it’s recommended to review the requirements and learn how to adopt it for your organization. [Learn more](/copilot/microsoft-365/microsoft-365-copilot-overview).  
