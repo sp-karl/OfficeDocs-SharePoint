@@ -1,5 +1,5 @@
 ---
-ms.date: 01/16/2025
+ms.date: 01/21/2025
 title: "Manage unlicensed OneDrive user accounts"
 ms.author: mactra
 author: MachelleTranMSFT
@@ -25,14 +25,31 @@ As an [IT administrator](/microsoft-365/admin/add-users/about-admin-roles), you 
 
 In this article, you learn how to identify, monitor, and manage unlicensed OneDrive accounts in your organization.
 
-## Changes to storage policies for unlicensed OneDrive accounts
+## Enforcement of policy changes for unlicensed OneDrive accounts
 
 > [!IMPORTANT]
 >
-> Beginning January 27, 2025, any OneDrive user account that has been unlicensed for more than 93 days will undergo the following actions:
+> Enforcement will begin on January 27, 2025, and the process will roll out gradually over a few months. Admins should anticipate that it takes time for all unlicensed accounts to complete the enforcement process.
 >
 > - Unlicensed OneDrive accounts subject to a retention policy, retention period, or legal hold will be automatically archived after 93 days of license removal. While these accounts remain visible to admins through administrative tools, neither admins nor end users have access to their content. Access stays restricted until administrators take specific actions. (Note these changes don't apply to EDU, GCC, or DoD customers.)
-> - Unlicensed accounts not covered by any retention policy or legal hold will be moved to recycle bin after 93 days of license removal.
+> - Unlicensed accounts not covered by any retention policy or legal hold will be moved to the recycle bin after 93 days of license removal.
+
+### Timeline for accounts unlicensed before February 17, 2025
+
+- April 25, 2025: By this date, all unlicensed accounts transition to read-only mode. Admins are advised to check after this date. Checking earlier can result in an incomplete status snapshot.
+- May 16, 2025: By this date, all unlicensed accounts are archived. Admins are advised to check after this date. Checking earlier can result in an incomplete status snapshot.
+
+### Timeline for accounts unlicensed after February 17, 2025
+
+For accounts unlicensed after February 17, 2025, the account will be put into read-only mode on the 60th unlicensed day, and will be archived or moved to the recycle bin on the 93rd unlicensed day.
+
+**Example:**
+
+- Unlicensed Date: March 1, 2025
+- Day 60: April 30, 2025. The account is placed in read-only mode.
+- Day 93: June 2, 2025: The account is either archived (if a retention policy is in place) or moved to the recycle bin (if no retention policy applies).
+
+Admins are encouraged to monitor account statuses based on these timelines to ensure compliance and take any necessary actions.
 
 ## Unlicensed OneDrive account management options
 
@@ -47,7 +64,7 @@ You can also bulk assign licenses using either of the following methods:
 - [Assign licenses to user accounts in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users)
 - [Assign licenses to user accounts with PowerShell](/microsoft-365/enterprise/assign-licenses-to-user-accounts-with-microsoft-365-powershell)
 
-**After the unlicensed OneDrive account archival** - The account must be reactivated from the archived state before a license can be assigned. If the archived account has an associated user, the IT admin can give the user a valid license and the account is automatically reactivated within 24 hours. If the archived account doesn't have an associated user (for example, if the identity was deleted), then we recommend admins move any actively needed content to a SharePoint site or an active and licensed OneDrive account. See [Assign or unassign licenses for users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users) for more information on licensing and active users in Microsoft 365.
+**After the unlicensed OneDrive account archival** - The account must be reactivated from the archived state before a license can be assigned. If the archived account has an associated user, the IT admin can give the user a valid license and the account is automatically reactivated within 24 hours. If the archived account doesn't have an associated user (for example, if the identity was deleted), then we recommend admins move any actively needed content to a SharePoint site or an active and licensed OneDrive account. For more information on licensing and active users in Microsoft 365, see [Assign or unassign licenses for users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ### Delete unlicensed OneDrive account
 
@@ -102,10 +119,10 @@ The following table provides more information on data shown in the unlicensed On
 | Storage used | Total storage consumed by these unlicensed OneDrive accounts as of the report's date.|
 | Retention period | Unlicensed accounts with a [set retention period](set-retention.md) during the process of license removal or user account deletion. The retention period is honored, and the content remains in an archived state until the period expires.|
 | Retention policy | Unlicensed accounts subject to a [retention policy](/purview/retention) set up in Microsoft Purview. The retention policy is honored, and the content remains in an archived state until the policy expires.|
-| Active user with no license | Accounts where the user's license was removed, but the account wasn't deleted as part of the [user deletion process](/microsoft-365/admin/add-users/delete-a-user). Starting in January 2025, users who aren't assigned a license, but are still considered active in the system, will be archived on the 93rd unlicensed day. If unlicensed billing has been enabled, then these archived accounts remain in the Archive state indefinitely, otherwise they're deleted. |
+| Active user with no license | Accounts where the user's license was removed, but the account wasn't deleted as part of the [user deletion process](/microsoft-365/admin/add-users/delete-a-user). Starting in January 2025, users who aren't assigned a license, but are still considered active in the system, are archived on the 93rd unlicensed day. If unlicensed billing is enabled, then these archived accounts remain in the Archive state indefinitely, otherwise they're deleted. |
 | Duplicate account | Unlicensed accounts created when an employee transfers to a different country/region, or firm within the organization. If these duplicate accounts are unnecessary, we recommend using the downloadable CSV from the SharePoint admin center to identify and delete them. If no action is taken, the accounts are automatically archived starting in January 2025 and incurs archive charges.|
 | Unlicensed reason | 'No owner' – There's no owner assigned to the OneDrive account, meaning that no license can be associated with this account.|
-||'Owner deleted from Entra ID' – The assigned owner has been deleted, thus there's no license associated with this account.|
+||'Owner deleted from Entra ID' – The assigned owner was deleted, thus there's no license associated with this account.|
 ||'License removed by admin' – The owner is present in Entra ID, but the owner’s license has been removed from the account.|
 ||'Duplicate account' – The owner has multiple OneDrive accounts associated with their identity. The duplicate account isn't the primary OneDrive account associated with the owner’s identity. All nonprimary accounts associated with the owner are considered unlicensed.|
 |Deletion blocked by|'Retention period' – The OneDrive account has been market for deletion but is within the global OneDrive account retention period, as defined by the [OneDrive retention period setting](set-retention.md). Shortening the retention period helps reduce unlicensed OneDrive accounts being retained for this reason.|
