@@ -53,7 +53,7 @@ Admins are encouraged to monitor account statuses based on these timelines to en
 
 ## Unlicensed OneDrive account management options
 
-After you identify the unlicensed OneDrive account, you can choose to license or delete the account. If no action is taken, the account is automatically archived from January 2025.
+After you identify the unlicensed OneDrive account, you can choose to license or delete the account.
 
 ### Assign license to unlicensed OneDrive account
 
