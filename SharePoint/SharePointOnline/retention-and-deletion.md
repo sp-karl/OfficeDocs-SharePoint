@@ -29,7 +29,11 @@ ms.custom:
 # OneDrive retention and deletion
 
 This article describes how you can manage a user's OneDrive when you delete the user's Microsoft 365 account for your organization, and what steps happen automatically.
-  
+
+> [!IMPORTANT]
+
+> All OneDrive accounts that do not have a valid OneDrive license are automatically archived on their 93rd unlicensed day.  Retention settings, retention policies, eDiscovery, and all holds are still honored while an unlicensed account is in the archive state. For more info, see [Manage unlicensed OneDrive user accounts](https://learn.microsoft.com/SharePoint/unlicensed-onedrive-accounts).
+
 ## Deleting a user from the Microsoft 365 admin center
 
 When you delete a user from the Active users page in the Microsoft 365 admin center, you can choose what you want to do with the user's product licenses, email, and OneDrive. For more info, see [Delete a user from your organization](/office365/admin/add-users/delete-a-user).
