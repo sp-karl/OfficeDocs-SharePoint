@@ -53,7 +53,7 @@ Admins are encouraged to monitor account statuses based on these timelines to en
 
 ## Unlicensed OneDrive account management options
 
-After you identify the unlicensed OneDrive account, you can choose to license or delete the account. If no action is taken, the account is automatically archived from January 2025.
+After you identify the unlicensed OneDrive account, you can choose to license or delete the account.
 
 ### Assign license to unlicensed OneDrive account
 
@@ -151,7 +151,7 @@ From this page, you can do the following actions:
 Once billing for unlicensed OneDrive accounts has been enabled, archived unlicensed OneDrive accounts which aren't deleted will begin to incur charges for both monthly storage and ad-hoc account reactivation.
 
 > [!NOTE]
-> Billing enablement refers to turning on the Unlicensed OneDrive accounts billing toggle, which can only be enabled once a general pay-as-you-go billing method has been setup.
+> Billing enablement refers to turning on the Unlicensed OneDrive accounts billing toggle, which can only be enabled once a general pay-as-you-go billing method has been set up.
 
 :::image type="content" source="media/unlicensed-onedrive/0-unlicensed-accounts-enablement.png" alt-text="screenshot of billing enablement for unlicensed accounts." lightbox="media/unlicensed-onedrive/0-unlicensed-accounts-enablement.png":::
 
