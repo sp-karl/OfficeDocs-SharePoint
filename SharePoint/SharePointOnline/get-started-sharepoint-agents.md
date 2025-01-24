@@ -45,3 +45,14 @@ Users can use SharePoint agents after being [assigned a Copilot license](/copilo
 ## Use agents with pay-as-you-go billing
 
 To use pay-as-you-go billing, you need to first set up SharePoint agents  as a resource in Azure. That resource is used whenever a user without a Microsoft 365 Copilot license uses a SharePoint agent. For more information, see [Use agents with pay-as-you-go billing](/sharepoint/sharepoint-agents-azure-billing).
+
+## Comparison of pay-as-you-go billing, Copilot licenses, and the trial promotion
+
+What does the user get with pay-as-you-go billing vs. a Copilot license vs. the trial promotion? Here is a comparison:
+| [Licensed for Microsoft 365 Copilot](/copilot/microsoft-365/microsoft-365-copilot-licensing) | [Pay-as-you-go](/sharepoint/sharepoint-agents-azure-billing) Enabled | [Trial promotion access](/sharepoint/manage-trial-agents-sharepoint-powershell#what-is-the-trial-access-to-sharepoint-agents) opted In | What does the user get? |
+|-----------------------------------------|-----------------------|-----------------------------|-------------------------|
+| No                                      | No                    | No                          | Cannot create or use agents |
+| No                                      | Yes                   | No                          | All unlicensed users get to create and use agents and are billed per pay-as-you-go billing. |
+| No                                      | Yes                   | Yes                         | All unlicensed users can create and use agents up to 10,000 queries per month and then pay-as-you-go kicks in once the promo is over. |
+| Yes                                     | Yes                   | Yes                         | Licensed users can create and use agents without using the trial promotion or pay-as-you-go billing); Unlicensed users can create and use agents up to 10,000 queries per month and then pay-as-you-go kicks in once promo is over. |
+| Yes                                     | No                    | No                          | Licensed users can create and use agents. Unlicensed users can't create or use agents. |

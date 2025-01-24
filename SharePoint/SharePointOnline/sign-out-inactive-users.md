@@ -1,5 +1,5 @@
 ---
-ms.date: 07/11/2018
+ms.date: 01/22/2025
 title: "Sign out inactive users"
 ms.reviewer: samust
 manager: jtremper
@@ -29,10 +29,8 @@ description: "Learn how to set an idle session sign-out policy for SharePoint an
 This article is for [SharePoint Administrators](/sharepoint/sharepoint-admin-role) or [above](/microsoft-365/admin/add-users/about-admin-roles) in Microsoft 365 who want to control user access to SharePoint and OneDrive data on unmanaged devices. Idle session sign-out lets you specify a time at which users are warned and are later signed out of Microsoft 365 after a period of browser inactivity in SharePoint and OneDrive.
 
 > [!NOTE]
-> Idle session sign-out applies to the entire organization and can't be set for specific sites or users. To target different settings for different users, use Microsoft Entra Conditional Access policies instead (and see the next important note about the Microsoft Entra ID P1 or P2 requirement).
-
-> [!IMPORTANT]
-> This feature relies on Microsoft Entra Conditional Access policies being available. You will need a Microsoft Entra ID P1 or P2 subscription for this to work. For more info about this, refer to the [announcement in the Microsoft Entra identity Blog](https://techcommunity.microsoft.com/t5/azure-active-directory-identity/conditional-access-8220-limited-access-8221-policies-for/ba-p/245228).
+> - Idle session sign-out applies to the entire organization and can't be set for specific sites or users. To target different settings for different users, use Microsoft Entra Conditional Access policies instead (and see the next important note about the Microsoft Entra ID P1 or P2 requirement).
+> - This feature relies on Microsoft Entra Conditional Access policies being available. You will need a Microsoft Entra ID P1 or P2 subscription for this to work. For more info about this, refer to the [Microsoft Entra licensing](/entra/fundamentals/licensing).
 
 Idle session sign-out is one of a number of policies you can use with SharePoint and OneDrive to balance security and user productivity and help keep your data safe irrespective of where users access the data from, what device they're working on, and how secure their network connection is. For more ways to control access in SharePoint and OneDrive, see [How SharePoint and OneDrive safeguard your data in the cloud](safeguarding-your-data.md).
 
