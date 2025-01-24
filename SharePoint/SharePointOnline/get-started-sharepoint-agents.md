@@ -1,5 +1,5 @@
 ---
-ms.date: 01/20/2025
+ms.date: 01/24/2025
 title: Get started with SharePoint agents
 ms.reviewer:
 ms.author: ruihu
@@ -54,6 +54,6 @@ What does the user get with pay-as-you-go billing, a Copilot license and the tri
 |-----------------------------------------|-----------------------|-----------------------------|-------------------------|
 | No                                      | No                    | No                          | Cannot create or use agents |
 | No                                      | Yes                   | No                          | All unlicensed users get to create and use agents and are billed per pay-as-you-go billing. |
-| No                                      | Yes                   | Yes                         | All unlicensed users can create and use agents up to 10,000 queries per month and then pay-as-you-go kicks in once the promotion is over. |
-| Yes                                     | Yes                   | Yes                         | - Licensed users can create and use agents without using the trial promotion or pay-as-you-go billing. <br>- Unlicensed users can create and use agents up to 10,000 queries per month and then pay-as-you-go kicks in once the promotion is over. |
-| Yes                                     | No                    | No                          | -Licensed users can create and use agents. <br>- Unlicensed users can't create or use agents. |
+| No                                      | Yes                   | Yes                         | All unlicensed users can create and use agents up to 10,000 queries per month and then pay-as-you-go kicks in once the user exceeds the 10,000 queries limit for the month; or once the six-month promotion is over. |
+| Yes                                     | Yes                   | Yes                         | - Licensed users can create and use agents without using the trial promotion or pay-as-you-go billing. <br>- Unlicensed users can create and use agents up to 10,000 queries per month and then pay-as-you-go kicks in once the user exceeds the 10,000 queries limit for the month; or once the six-month promotion is over. |
+| Yes                                     | No                    | No                          | - Licensed users can create and use agents. <br>- Unlicensed users can't create or use agents. |
