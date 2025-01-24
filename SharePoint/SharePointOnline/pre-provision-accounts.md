@@ -91,8 +91,7 @@ To verify that OneDrive has been created for your users, see [Get a list of all 
 
 The following code snippet will pre-provision OneDrive in batches of 199.
 > [!NOTE]
-> you need to provide your Microsoft 365 Tenant ID for more information see [Find IDs and domain names](https://learn.microsoft.com/vsts/partner-center/account-settings/find-ids-and-domain-names).
-
+> You need to provide your Microsoft 365 Tenant ID. For more information, see [Find IDs and domain names](/partner-center/account-settings/find-ids-and-domain-names).
 
 ```PowerShell
 Param(
