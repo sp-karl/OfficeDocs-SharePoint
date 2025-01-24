@@ -40,7 +40,7 @@ When you delete a user from the Active users page in the Microsoft 365 admin cen
 
 ![Panel for deleting a user from the Microsoft 365 admin center](media/delete-user-m365.png)
 
-If you give another user access to the OneDrive, that user has 30 days by default to access and download the files they want to keep. (To change the retention time, see [Set the OneDrive retention for deleted users](set-retention.md).) They receive an email with a link to these instructions for accessing the deleted user's OneDrive: [Copy files from another user's OneDrive](https://support.office.com/article/7eb33f7d-6540-488f-afaf-56043828e47b.aspx).
+If you give another user access to the OneDrive, that user has 30 days by default to access and download the files they want to keep. (To change the retention time, see [Set the OneDrive retention for deleted users](set-retention.md). They receive an email with a link to these instructions for accessing the deleted user's OneDrive: [Copy files from another user's OneDrive](https://support.microsoft.com/office/copy-files-from-another-person-s-onedrive-7eb33f7d-6540-488f-afaf-56043828e47b).
   
 ## Configure automatic access delegation
 
