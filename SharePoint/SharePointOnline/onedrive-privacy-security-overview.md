@@ -5,7 +5,7 @@ author: MachelleTranMSFT
 manager: jtremper
 audience: admin
 ms.reviewer: 
-ms.date: 05/01/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 ms.service: one-drive
 search.appverid: 
@@ -55,7 +55,7 @@ Microsoft OneDrive is also covered under the [Microsoft Product Terms](https://w
 
 For more detailed information, see the following resources:
 
-- **Microsoft 365** – [Quick tasks for getting started with compliance in Microsoft Purview](/purview/compliance-quick-tasks)
+- **Microsoft 365** – [Microsoft Purview risk and compliance solutions](/purview/purview-compliance)
 
 - **Microsoft SharePoint** – [Plan compliance requirements for SharePoint and OneDrive](/SharePoint/compliant-environment)
 
