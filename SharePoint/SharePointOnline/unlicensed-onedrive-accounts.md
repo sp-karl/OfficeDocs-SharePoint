@@ -84,7 +84,7 @@ For newly unlicensed OneDrive accounts, it will be after 93 days of the license 
 
 **Accessing an Archived OneDrive Account:**
 
-- To access data from an archived OneDrive account, reactivation is required. Follow these prerequisites to set up [Microsoft 365 Archive:](/microsoft-365/syntex/archive/archive-setup"https://learn.microsoft.com/en-us/microsoft-365/syntex/archive/archive-setup")
+- To access data from an archived OneDrive account, reactivation is required. Follow these prerequisites to set up [Microsoft 365 Archive:](/microsoft-365/syntex/archive/archive-setup)
 
   1. Set up and link an [Azure subscription in Syntex pay-as-you-go](/microsoft-365/syntex/syntex-azure-billing)**.**
   
