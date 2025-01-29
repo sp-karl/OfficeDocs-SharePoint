@@ -82,14 +82,30 @@ For newly unlicensed OneDrive accounts, it will be after 93 days of the license 
 
 ### Access unlicensed OneDrive account
 
-If you want to access the data of the now inaccessible unlicensed OneDrive account, reactivation is required, and you must do the following prerequisites to set up [Microsoft 365 Archive](/microsoft-365/syntex/archive/archive-setup):
+**Accessing an Archived OneDrive Account:**
 
-1. Set up and link Azure subscription in [Syntex pay-as-you-go](/microsoft-365/syntex/syntex-azure-billing).
-2. Must have Global admin or SharePoint admin permissions.
-3. [Enable Microsoft 365 Archive](/microsoft-365/syntex/syntex-azure-billing) Unlicensed Account billing (billing is available starting December 2024).
+- To access data from an archived OneDrive account, reactivation is required. Follow these prerequisites to set up [Microsoft 365 Archive:](/microsoft-365/syntex/archive/archive-setup"https://learn.microsoft.com/en-us/microsoft-365/syntex/archive/archive-setup")
 
-After the setup is completed and reactivation is triggered, it might take up to 24 hours for the account to become accessible. Once reactivated, the account remains active for 30 days before being automatically archived again.
+  1. Set up and link an [Azure subscription in Syntex pay-as-you-go](/microsoft-365/syntex/syntex-azure-billing"https://learn.microsoft.com/en-us/microsoft-365/syntex/syntex-azure-billing")**.**
+  
+  1. Ensure you have Global admin or SharePoint admin permissions.
+  
+  1. [Enable Microsoft 365 Archive ](/microsoft-365/syntex/syntex-azure-billing"https://learn.microsoft.com/en-us/microsoft-365/syntex/syntex-azure-billing")Unlicensed Account billing (available starting December 2024).
+  
+  1. [Reactivate the archived site. ](/microsoft-365/archive/archive-manage"https://learn.microsoft.com/en-us/microsoft-365/archive/archive-manage")
+  
+  After completing the setup and triggering reactivation, it may take up to 24 hours for the account to become accessible. Once reactivated, the account remains active for 30 days before being automatically archived again.
+  
+**Accessing a Read-Only OneDrive Account:**
 
+- If the OneDrive account has been set to read-only, administrators have multiple options to access the content:
+
+  - [Reactivate the site](/microsoft-365/archive/archive-manage?view=o365-worldwide)
+  
+  - [Add a license](/SharePoint/unlicensed-onedrive-accounts"https://learn.microsoft.com/en-us/sharepoint/unlicensed-onedrive-accounts#assign-license-to-unlicensed-onedrive-account")
+  
+  - [Use PowerShell to unlock the site](/sharepoint/manage-lock-status"https://learn.microsoft.com/en-us/sharepoint/manage-lock-status") 
+  
 > [!NOTE]
 > These changes don't apply to EDU, GCC, or DoD customers.
 
@@ -151,7 +167,7 @@ From this page, you can do the following actions:
 Once billing for unlicensed OneDrive accounts has been enabled, archived unlicensed OneDrive accounts which aren't deleted will begin to incur charges for both monthly storage and ad-hoc account reactivation.
 
 > [!NOTE]
-> Billing enablement refers to turning on the Unlicensed OneDrive accounts billing toggle, which can only be enabled once a general pay-as-you-go billing method has been set up.
+> Billing enablement refers to turning on the Unlicensed OneDrive accounts billing toggle, which can only be enabled once a general pay-as-you-go billing method has been set up. Billing starts when the billing enablement for unlicensed OneDrive accounts is activated, not when an account is reactivated. Reactivation requires billing enablement, and once it is activated, storage charges begin.
 
 :::image type="content" source="media/unlicensed-onedrive/0-unlicensed-accounts-enablement.png" alt-text="screenshot of billing enablement for unlicensed accounts." lightbox="media/unlicensed-onedrive/0-unlicensed-accounts-enablement.png":::
 
@@ -251,9 +267,16 @@ As an example, if the billing is put down to reactivate one particular unlicense
 ## Related topics
 
 - [OneDrive retention and deletion](retention-and-deletion.md)
+
 - [Pricing model for Microsoft 365 Archive](/microsoft-365/archive/archive-pricing)
+
 - [Learn about retention for SharePoint and OneDrive](/purview/retention-policies-sharepoint#how-retention-works-with-microsoft-365-archive)
+
 - [Set the OneDrive retention for deleted users](set-retention.md)
+
 - [Create retention labels for exceptions](/purview/create-retention-labels-data-lifecycle-management)
+
 - [Delete a user from your organization](/microsoft-365/admin/add-users/delete-a-user)
+
 - [Assign or unassign licenses for users in the Microsoft 365 admin center](/microsoft-365/admin/manage/assign-licenses-to-users)
+
