@@ -86,13 +86,13 @@ For newly unlicensed OneDrive accounts, it will be after 93 days of the license 
 
 - To access data from an archived OneDrive account, reactivation is required. Follow these prerequisites to set up [Microsoft 365 Archive:](/microsoft-365/syntex/archive/archive-setup"https://learn.microsoft.com/en-us/microsoft-365/syntex/archive/archive-setup")
 
-  1. Set up and link an [Azure subscription in Syntex pay-as-you-go](/microsoft-365/syntex/syntex-azure-billing"https://learn.microsoft.com/en-us/microsoft-365/syntex/syntex-azure-billing")**.**
+  1. Set up and link an [Azure subscription in Syntex pay-as-you-go](/microsoft-365/syntex/syntex-azure-billing)**.**
   
   1. Ensure you have Global admin or SharePoint admin permissions.
   
-  1. [Enable Microsoft 365 Archive ](/microsoft-365/syntex/syntex-azure-billing"https://learn.microsoft.com/en-us/microsoft-365/syntex/syntex-azure-billing")Unlicensed Account billing (available starting December 2024).
+  1. [Enable Microsoft 365 Archive ](/microsoft-365/syntex/syntex-azure-billing)Unlicensed Account billing (available starting December 2024).
   
-  1. [Reactivate the archived site. ](/microsoft-365/archive/archive-manage"https://learn.microsoft.com/en-us/microsoft-365/archive/archive-manage")
+  1. [Reactivate the archived site. ](/microsoft-365/archive/archive-manage)
   
   After completing the setup and triggering reactivation, it may take up to 24 hours for the account to become accessible. Once reactivated, the account remains active for 30 days before being automatically archived again.
   
@@ -100,9 +100,9 @@ For newly unlicensed OneDrive accounts, it will be after 93 days of the license 
 
 - If the OneDrive account has been set to read-only, administrators have multiple options to access the content:
 
-  - [Add a license](/SharePoint/unlicensed-onedrive-accounts"https://learn.microsoft.com/en-us/sharepoint/unlicensed-onedrive-accounts#assign-license-to-unlicensed-onedrive-account")
+  - [Add a license](/SharePoint/unlicensed-onedrive-accounts)
   
-  - [Use PowerShell to unlock the site](/sharepoint/manage-lock-status"https://learn.microsoft.com/en-us/sharepoint/manage-lock-status") 
+  - [Use PowerShell to unlock the site](/sharepoint/manage-lock-status) 
   
 > [!NOTE]
 > These changes don't apply to EDU, GCC, or DoD customers.
