@@ -158,6 +158,9 @@ You can view details on all unlicensed OneDrive accounts, even ones that aren’
    - Delete accounts (some caveats exist such as delete failing because the account is on hold)
    - Reactivate accounts
 
+> [!NOTE]
+> Admins can reactivate accounts from the detailed report.  Accounts selected in the detailed report will display a 'Reactivate' button if the account is archived and billing for Unlicensed OneDrive accounts has been enabled.
+
 ## Charges from archived accounts
 
 Once billing for unlicensed OneDrive accounts has been enabled, archived unlicensed OneDrive accounts which aren't deleted will begin to incur charges for both monthly storage and ad-hoc account reactivation.
