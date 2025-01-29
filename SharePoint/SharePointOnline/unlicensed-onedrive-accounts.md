@@ -100,8 +100,6 @@ For newly unlicensed OneDrive accounts, it will be after 93 days of the license 
 
 - If the OneDrive account has been set to read-only, administrators have multiple options to access the content:
 
-  - [Reactivate the site](/microsoft-365/archive/archive-manage?view=o365-worldwide)
-  
   - [Add a license](/SharePoint/unlicensed-onedrive-accounts"https://learn.microsoft.com/en-us/sharepoint/unlicensed-onedrive-accounts#assign-license-to-unlicensed-onedrive-account")
   
   - [Use PowerShell to unlock the site](/sharepoint/manage-lock-status"https://learn.microsoft.com/en-us/sharepoint/manage-lock-status") 
