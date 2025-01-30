@@ -45,7 +45,7 @@ If a user's Microsoft 365 account is deleted, their OneDrive files are preserved
   
 3. Enter a value from 30 through 3650 in the **Days to retain files a deleted user's OneDrive** box.
 
-    The setting is activated for the next user that is deleted as well as any users that are in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time.
+    The setting applies to all OneDrives.  It is activated for the next user that is deleted as well as any users that are in the process of being deleted. The count begins as soon as the user account was deleted in the Microsoft 365 admin center, even though the deletion process takes time.
 
 4. Select **Save**.
 
